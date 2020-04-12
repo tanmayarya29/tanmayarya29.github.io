@@ -1,0 +1,124 @@
+.top{
+    background-color: white;
+    padding: 0.5rem;
+    
+}
+
+.imgLogoTop{
+    width: 11rem;
+    border-radius: 0.3rem;    
+}
+.nameLogo{
+    font-size: 0.5rem
+}
+
+.btnA,.btnB{
+    border: 1px solid grey; 
+}
+
+.btnA:hover,.btnB:hover{
+    background:linear-gradient(red,crimson);
+    color: aliceblue;
+}
+
+
+.a{
+    padding-left: 0rem;
+    margin: auto;
+}
+.b{
+    padding-right: 0;
+    margin: auto;
+    text-align: right
+}
+.modalFoot{
+    display: block;
+    margin: auto
+}
+.modalHead{
+    margin: auto;
+    color: red;
+    font-family: 'Gotu';
+    font-weight: 600;
+}
+
+
+.fa.fa-facebook-square{
+    color: #3b5998;
+    background-color: aliceblue;   
+    
+}
+.fa{
+    color: #3b5998;
+    background-color: aliceblue;
+    border-radius: 50%;box-shadow: 3px 3px 9px rgba(0,0,0,0.9);
+    margin: 5px;
+}
+.foot{
+   margin: auto;
+    padding: 1rem;
+}
+
+.footsy{
+    text-align: right;
+    margin-top: 1rem;
+    
+}
+.img-fluid.border{
+    border-radius: 10px;
+    box-shadow: 3px 3px 9px rgba(0,0,0,0.9);
+    margin: auto;
+    display: block;
+}
+
+.row.host{
+    margin: auto;
+    padding: 1rem
+}
+
+.row.bt{
+    padding: 1rem;
+    margin: auto;
+}
+/*Sign in and sign up modal*/
+.signin-body{
+    background-color:crimson;
+}
+
+
+.card.signin-card{
+    background-color: #f4f4f4;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    width: 100%;
+    
+}
+
+img.signin-img{
+    padding: 0 0 0 0 ;
+    margin:auto ;
+    display: block;
+    width: 80%;
+    
+}
+
+form.signin-form{
+    margin: auto;
+    max-width: 350px;
+    padding: 1.5rem;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,324 @@
+/*############## Defaults #################*/
+nav,
+header,
+footer{
+    display: block;
+    
+    
+}
+
+body
+{
+   line-height: 1; /*line height creates space bw text*/
+   margin: 0;
+    
+}
+
+label {
+    font-family: 'Gotu';
+    font-size: 35px;
+    font-weight: 600;/*making bold*/
+    
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.2;
+    
+    
+}
+
+article p{
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+    
+    
+}
+
+.container 
+{
+    width: 100%;
+    margin: auto;/*for centering elements*/
+    padding-top: 4%;
+    padding-bottom: 4%;
+    
+    
+}
+
+.row
+{
+    width: 100%;
+    display: flex;/*for making content change sizee*/
+    flex-wrap: wrap;/*wrapping contents*/
+    align-items: center;/*centering the contents inside flex*/
+    
+    
+}
+
+.row::after {
+    display: table;
+    clear: both;
+    content: "";
+    
+}
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+* {
+    box-sizing: border-box;
+    
+    
+}
+
+/*############## Nav bar ###############*/
+nav
+{
+    width: 100%;
+    margin: 0;
+    
+    
+}
+
+nav ul
+{
+    background-color: #eee;
+    overflow: hidden;/*hides any elelement big clips it for remove over scrolling side to side*/
+    margin: 0;
+    padding: 0;
+}
+
+ul.topnav li {
+    list-style: none;/*removes bullet points*/
+    float: left;
+    
+    
+}
+
+ul.topnav li.topnav-right {
+    float: right;
+}
+
+ul.topnav li a{
+    display: block;
+    text-decoration: none;/*removing underlines*/
+    min-height:16px;/*alt of font-size: 16px;*/
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: #666;
+}
+
+/*######## * adding hover action * ##########*/ 
+ul.topnav li a:hover{
+    background-color: #0080ff;
+    color: #fff;
+    
+}
+
+ul.topnav li.dropdownIcon {
+    display: none;
+}
+
+/*############# custom styles #############*/
+#section-1-gradient {
+    background: linear-gradient(to top,darkred,#d64829)
+    
+}
+
+div.box{
+    background-color:#fff;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.15),0 2px 3px 0 rgba(0,0,0,.1);/*hlength vlength blurradius spreadradius color(shadow,bg,box,opacity) a is opacity*/
+    text-align: center;
+    margin: 24px;
+    padding: 36px 24px 40px 24px;
+    border-radius: 8px; 
+}
+
+div.slopeIcon img{
+    display: block;
+    margin: auto;
+    box-shadow: -2px -2px 1px 5px rgba(0,0,0,0.15), 2px 2px 1px 6px rgba(0,0,0,0.1)
+}
+
+button{
+    font-size: 32px;
+    font-weight: 800px;
+    color: #fff;
+    background-color: #0069ff;
+    padding: 15px 60px;
+    display: block;
+    text-align: center;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+button.LearnMore{
+    display: block;
+    margin: auto
+}
+
+div.icon{
+    width: 100%;
+    
+}
+
+.leftSide-col {
+    margin-left: 30%;
+    
+}
+
+.rightSide-col{
+    margin-left: 15%;
+}
+
+h1.large{/*headers have margin but label and paragraphs dont have*/
+    color: #fff;
+    font-size: 56px;
+    margin: 0;
+    line-height: 70px;
+}
+
+h1.section2Header
+{
+    font-size: 45px;
+    text-align: center;
+    
+}
+
+
+form h2 {
+    color: #fff;
+    
+}
+
+input[type="text"]{/*attribute tag[]*/
+    font-size: 20px;
+    width: 400px;
+    min-width: 100px;
+    padding: 5px;
+     border-radius: 7px;
+}
+
+footer.footsy{
+    background-color: #666;
+    padding-left: 10%;
+}
+
+footer.footsy h1{
+    color: #fff;
+    font-size: 35px;
+}
+footer.footsy ul {
+    
+    
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+}
+footer.footsy ul li{
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.3;
+    
+}
+
+
+
+/*#### Mobile using media query(@media) keyword(screen) ####*/
+@media screen and (max-width: 680px){
+    ul.topnav li:not(:nth-child(1)) {/*not selector*/
+        display: none;
+        
+    }
+    
+    ul.topnav li.dropdownIcon {
+        display: block;
+        float: right;
+    }
+    
+    ul.topnav.responsive li.dropdownIcon {
+        position: absolute;/*dont move stay at prev posn*/
+        top: 0;
+        right: 0;
+    }
+    
+    ul.topnav.reponsive {
+        position: relative;
+        
+    }
+    
+    ul.topnav.responsive li{
+        display: inline;
+        float: none;
+            
+    }
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+        
+    }
+    
+    h1.section2Header{
+        font-size: 45px;
+    }
+    
+    
+    article p{
+        font-size: 25px;
+    }
+    
+    .col-6,.col-4,.col-7,.col-5{
+        width: 100%;
+        margin: 0; 
+    }
+    
+    div.mobileStack{
+        width: 50%;
+        display: block;
+    }
+    
+    
+    div.box{
+        padding: 5px;
+        display:block;
+    }
+    
+    div.slopeIcon{
+        margin: 10px;
+    }
+    
+    div.slopeIcon img{
+        width: 100%;
+        
+    }
+    
+    div.leftSide-col,
+    div.rightSide-col
+    {
+        margin: 15px;
+    }
+    input[type="text"]{
+        width: 350px;
+       
+    }
+    .videoContainer iframe
+    {
+        position: relative;/*for normal position*/
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+        border-radius: 15px;
+    }
+}
