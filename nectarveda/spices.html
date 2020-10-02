@@ -1,0 +1,721 @@
+<!doctype html>
+<html lang="en">
+ 
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <!--      font-awesome for icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <!--      google-fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Gilda+Display|Gotu|Macondo|Playfair+Display|Quicksand&display=swap" rel="stylesheet">
+    <!--      main style sheet-->
+    <link rel="stylesheet" href="spices.css"><link rel="icon" href="RESOURCES/Multimedia/logosm.jpg">
+    <title>Nectarveda | Ayurvedic Consultation Services</title>
+</head>
+
+<body>
+<!--    top  header-->
+    <div class="container-fluid">
+        <div class="row top">
+            <div class="col col-md-6 a">
+                <a href="index.html">
+                    <img src="RESOURCES/Multimedia/logo.jpg" class="img-fluid imgLogoTop" alt="logo">
+                </a>
+            </div>
+             <div class="col-5 col-sm-5 col-md-6 b">
+                <button type="button" class="btn btn-light btn-sm btnA" data-toggle="modal" data-target="#signIn">Sign In</button>
+                <button type="button" class="btn btn-light btnB btn-sm" data-toggle="modal" data-target="#signUp">Sign Up</button>
+            </div>
+        </div>
+    </div>
+        
+<!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">
+                <h5>HOME</h5>
+            </a>
+            <button class="navbar-toggler nav " type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutUs.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="modal" data-target="#signIn" href="#">Online Consultation</a>
+                    </li>
+                    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Ayurveda
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="ayurved.html">Ayurveda</a>
+            <a class="dropdown-item" href="ayurvedAvtaran.html">Ayurveda-Avtaran</a>
+          <a class="dropdown-item" href="ashtangAyurveda.html">Ashtang Ayurveda</a>
+          <a class="dropdown-item" href="triDosha.html">Tri-Dosha</a>
+          <a class="dropdown-item" href="shapt.html">Shapt Dhatu</a>
+          <a class="dropdown-item" href="mala.html">Tri-Mala</a>
+          <a class="dropdown-item" href="shrotas.html">Shrotas</a>
+          <a class="dropdown-item" href="aam.html">Aam and Agni</a>
+          
+        </div>
+      </li>
+                    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Diseases
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="dig.html">Digestive</a>
+            <a class="dropdown-item " href="res.html">Respiratory</a>
+            <a class="dropdown-item" href="cardio.html">Cardiovascular</a>
+            <a class="dropdown-item" href="uri.html">Urinary</a>
+            <a class="dropdown-item" href="neuro.html">Neurological</a>
+            <a class="dropdown-item" href="endoc.html">Endocrine</a>
+            <a class="dropdown-item" href="muskel.html">Musculoskelatel</a>
+            <a class="dropdown-item" href="gynac.html">Gynacological</a>
+            <a class="dropdown-item" href="sexual.html">Sexual</a>
+            <a class="dropdown-item" href="infer.html">Infertility</a>
+            <a class="dropdown-item" href="skinHair.html">Skin and Hair</a>
+            <a class="dropdown-item" href="psycho.html">Psychology</a> 
+          </div>
+      </li>
+                   
+                    <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Food and Nutrition
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="bdiet.html">Balanced diet</a>
+            <a class="dropdown-item " href="fru.html">Fruits</a>
+            <a class="dropdown-item " href="dryFru.html">Dry Fruits</a>
+            <a class="dropdown-item " href="veget.html">Vegetables</a>
+            <a class="dropdown-item " href="spices.html">Spices</a>
+            <a class="dropdown-item " href="cereal.html">Cereals</a>
+            <a class="dropdown-item " href="pulse.html">Pulses</a>
+            <a class="dropdown-item " href="dairy.html">Dairy Products</a>
+            <a class="dropdown-item " href="honey.html">Honey</a>
+            <a class="dropdown-item" href="nvdiet.html">Non-Vegetarian</a>
+            
+          </div>
+      </li>
+                     <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Yoga
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="ayoga.html">Ashtang Yoga</a>
+            <a class="dropdown-item " href="yogap.html">Yoga Postures</a>
+            <a class="dropdown-item" href="pran.html">Pranayam</a>
+            <a class="dropdown-item" href="medi.html">Meditation</a>
+            
+          </div>
+      </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="health.html">Health</a>
+                    </li>
+                    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Medicinal Herbs
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <h6 class="h6 ml-4">Medicinal herbs for :</h6>
+            <a class="dropdown-item" href="mner.html">Nervous system</a>
+            <a class="dropdown-item " href="msen.html">Sensory organs</a>
+            <a class="dropdown-item" href="mcar.html">Cardiovascular system</a>
+            <a class="dropdown-item" href="mres.html">Respiratory system</a>
+            <a class="dropdown-item" href="mdig.html">Digestive system</a>
+            <a class="dropdown-item" href="mrep.html">Reproductive system</a>
+            <a class="dropdown-item" href="mfever.html">Fever</a>
+            <a class="dropdown-item" href="mheal.html">Healing wounds</a>
+            <a class="dropdown-item" href="mboost.html">Boosting energy</a>
+            <a class="dropdown-item" href="mcancer.html">Fighting cancer</a>
+            <a class="dropdown-item" href="mskin.html">Skin and Hair</a>
+            
+          </div>
+      </li>
+                </ul>
+            </div>
+
+        </nav>
+<!--body-->
+   
+     
+<div class="container-fluid">
+    <div class="accordion" id="accordionExample">
+        
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0" style="text-align: center ;">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="font-size: 2rem; font-family: 'Gotu'; color: brown;">
+            <img class="img-fluid" src="RESOURCES/Multimedia/onion.png" style="border-radius: 1rem;border: 2px solid grey;width: 3em; height: 2em">
+            1. Onion 
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
+            Onion
+        </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0" style="text-align: center ;">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo" style="font-size: 2rem; font-family: 'Gotu'; color: brown;">
+            <img class="img-fluid" src="RESOURCES/Multimedia/garlic.png" style="border-radius: 1rem;border: 2px solid grey;width: 3em; height: 2em">
+            2. Garlic
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">Garlic</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0" style="text-align: center ;">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree" style="font-size: 2rem; font-family: 'Gotu'; color: brown;">
+            <img class="img-fluid" src="RESOURCES/Multimedia/ginger.png" style="border-radius: 1rem;border: 2px solid grey; width:3em ; height: 2em">
+            3. Ginger  
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseThree" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">Ginger</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingFour">
+      <h2 class="mb-0" style="text-align: center ;">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour" style="font-size: 2rem; font-family: 'Gotu'; color: brown;">
+            <img class="img-fluid" src="RESOURCES/Multimedia/black_pepper.png" style="border-radius: 1rem;border: 2px solid grey;width: 3em;height: 2em">
+4. Black pepper      </button>
+      </h2>
+    </div>
+
+    <div id="collapseFour" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">Black pepper</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingFive">
+      <h2 class="mb-0" style="text-align: center ;">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive" style="font-size: 2rem; font-family: 'Gotu'; color: brown;">
+            <img class="img-fluid" src="RESOURCES/Multimedia/cuminseed.png" style="border-radius: 1rem;border: 2px solid grey;width: 2.8em;height: 2em">
+            5. Cummin seed
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseFive" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">Cummin seed</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingSix">
+      <h2 class="mb-0" style="text-align: center ;">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix" style="font-size: 2rem; font-family: 'Gotu'; color: brown;">
+            <img class="img-fluid" src="RESOURCES/Multimedia/funnelseed.png" style="border-radius: 1rem;border: 2px solid grey;width: 3em;height: 2em;">
+            6. Funnel seed
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseSix" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">Funnel seed</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingSeven">
+      <h2 class="mb-0" style="text-align: center ;">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven" style="font-size: 2rem; font-family: 'Gotu'; color: brown;">
+            <img class="img-fluid" src="RESOURCES/Multimedia/cinnamon.png" style="border-radius: 1rem;border: 2px solid grey;width: 3em;height: 2em;">
+            7. Cinnamon
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseSeven" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">Cinnamon</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingEight">
+      <h2 class="mb-0" style="text-align: center ;">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight" style="font-size: 2rem; font-family: 'Gotu'; color: brown;">
+            <img class="img-fluid" src="RESOURCES/Multimedia/cardemom.png" style="border-radius: 1rem;border: 2px solid grey;width: 3em;height: 2em;">
+            8. Cardemom
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseEight" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">Cardemom</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingNine">
+      <h2 class="mb-0" style="text-align: center ;">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine" style="font-size: 2rem; font-family: 'Gotu'; color: brown;">
+            <img class="img-fluid" src="RESOURCES/Multimedia/asafoetida.png" style="border-radius: 1rem;border: 2px solid grey;width: 3em;height: 2em;">
+            9. Asaphoetida
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseNine" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">Asphotida</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTen">
+      <h2 class="mb-0" style="text-align: center ;">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen" style="font-size: 2rem; font-family: 'Gotu'; color: brown;">
+            <img class="img-fluid" src="RESOURCES/Multimedia/fenugreek.png" style="border-radius: 1rem;border: 2px solid grey;width: 3em;height: 2em;">
+            10. Fenugreek
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionExample">
+        <div class="card-body">Fenugreek</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingEleven">
+      <h2 class="mb-0" style="text-align: center ;">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="true" aria-controls="collapseEleven" style="font-size: 2rem; font-family: 'Gotu'; color: brown;">
+            <img class="img-fluid" src="RESOURCES/Multimedia/mustard.png" style="border-radius: 1rem;border: 2px solid grey;width: 3em;height: 2em;">
+            11. Mustard
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseEleven" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">Mustard</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwelve">
+      <h2 class="mb-0" style="text-align: center ;">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="true" aria-controls="collapseTwelve" style="font-size: 2rem; font-family: 'Gotu'; color: brown;">
+            <img class="img-fluid" src="RESOURCES/Multimedia/ajwain.jpg" style="border-radius: 1rem;border: 2px solid grey;width: 3em;height: 2em;">
+            12. Carom seed
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#accordionExample">
+        <div class="card-body">Carom seed</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThirteen">
+      <h2 class="mb-0" style="text-align: center ;">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThirteen" aria-expanded="true" aria-controls="collapseThirteen" style="font-size: 2rem; font-family: 'Gotu'; color: brown;">
+            <img class="img-fluid" src="RESOURCES/Multimedia/bittergourd.png" style="border-radius: 1rem;border: 2px solid grey;width: 3em;height: 2em;">
+            13. Bay leaf
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseThirteen" class="collapse" aria-labelledby="headingThirteen" data-parent="#accordionExample">
+        <div class="card-body">Bay leaf</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingFourteen">
+      <h2 class="mb-0" style="text-align: center ;">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFourteen" aria-expanded="true" aria-controls="collapseFourteen" style="font-size: 2rem; font-family: 'Gotu'; color: brown;">
+            <img class="img-fluid" src="RESOURCES/Multimedia/bottleguard.png" style="border-radius: 1rem;border: 2px solid grey;width: 3em;height: 2em;">
+            14. Chia seed
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseFourteen" class="collapse" aria-labelledby="headingFourteen" data-parent="#accordionExample">
+        <div class="card-body">Chia seed</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingFifteen">
+      <h2 class="mb-0" style="text-align: center ;">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFifteen" aria-expanded="true" aria-controls="collapseFifteen" style="font-size: 2rem; font-family: 'Gotu'; color: brown;">
+            <img class="img-fluid" src="RESOURCES/Multimedia/radish.jpg" style="border-radius: 1rem;border: 2px solid grey;width: 3em;height: 2em;">
+            15. Chilly
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseFifteen" class="collapse" aria-labelledby="headingFifteen" data-parent="#accordionExample">
+        <div class="card-body">Chilly</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingSixteen">
+      <h2 class="mb-0" style="text-align: center ;">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSixteen" aria-expanded="true" aria-controls="collapseSixteen" style="font-size: 2rem; font-family: 'Gotu'; color: brown;">
+            <img class="img-fluid" src="RESOURCES/Multimedia/spinach.png" style="border-radius: 1rem;border: 2px solid grey;width: 3em;height: 2em;">
+            16. Coriander
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseSixteen" class="collapse" aria-labelledby="headingSixteen" data-parent="#accordionExample">
+        <div class="card-body">Coriander</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingSeventeen">
+      <h2 class="mb-0" style="text-align: center ;">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSeventeen" aria-expanded="true" aria-controls="collapseSeventeen" style="font-size: 2rem; font-family: 'Gotu'; color: brown;">
+            <img class="img-fluid" src="RESOURCES/Multimedia/clusterbeans.png" style="border-radius: 1rem;border: 2px solid grey;width: 3em;height: 2em;">
+            17. Curry leaves
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseSeventeen" class="collapse" aria-labelledby="headingSeventeen" data-parent="#accordionExample">
+        <div class="card-body">Curry leaves</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingEighteen">
+      <h2 class="mb-0" style="text-align: center ;">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseEighteen" aria-expanded="true" aria-controls="collapseEighteen" style="font-size: 2rem; font-family: 'Gotu'; color: brown;">
+            <img class="img-fluid" src="RESOURCES/Multimedia/turnip.png" style="border-radius: 1rem;border: 2px solid grey;width: 3em;height: 2em;">
+            18. Dry fenugreek leaves
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseEighteen" class="collapse" aria-labelledby="headingEighteen" data-parent="#accordionExample">
+        <div class="card-body">Dry fenugreek leaves</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingNineteen">
+      <h2 class="mb-0" style="text-align: center ;">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseNineteen" aria-expanded="true" aria-controls="collapseNineteen" style="font-size: 2rem; font-family: 'Gotu'; color: brown;">
+            <img class="img-fluid" src="RESOURCES/Multimedia/broccoli.png" style="border-radius: 1rem;border: 2px solid grey;width: 3em;height: 2em;">
+            19. Long pepper
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseNineteen" class="collapse" aria-labelledby="headingNineteen" data-parent="#accordionExample">
+        <div class="card-body">Long pepper</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwenty">
+      <h2 class="mb-0" style="text-align: center ;">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwenty" aria-expanded="true" aria-controls="collapseTwenty" style="font-size: 2rem; font-family: 'Gotu'; color: brown;">
+            <img class="img-fluid" src="RESOURCES/Multimedia/drumstick.png" style="border-radius: 1rem;border: 2px solid grey;width: 3em;height: 2em;">
+            20. Mace
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseTwenty" class="collapse" aria-labelledby="headingTwenty" data-parent="#accordionExample">
+        <div class="card-body">Mace</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="heading21">
+      <h2 class="mb-0" style="text-align: center ;">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse21" aria-expanded="true" aria-controls="collapse21" style="font-size: 2rem; font-family: 'Gotu'; color: brown;">
+            <img class="img-fluid" src="RESOURCES/Multimedia/indian%20squash.png" style="border-radius: 1rem;border: 2px solid grey;width: 3em;height: 2em;">
+            21. Nigella seeds
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapse21" class="collapse" aria-labelledby="heading21" data-parent="#accordionExample">
+        <div class="card-body">Nigella seeds</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="heading22">
+      <h2 class="mb-0" style="text-align: center ;">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse22" aria-expanded="true" aria-controls="collapse22" style="font-size: 2rem; font-family: 'Gotu'; color: brown;">
+            <img class="img-fluid" src="RESOURCES/Multimedia/pointedgourd.png" style="border-radius: 1rem;border: 2px solid grey;width: 3em;height: 2em;">
+            22. Nutmeg
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapse22" class="collapse" aria-labelledby="heading22" data-parent="#accordionExample">
+        <div class="card-body">Nutmeg</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="heading23">
+      <h2 class="mb-0" style="text-align: center ;">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse23" aria-expanded="true" aria-controls="collapse23" style="font-size: 2rem; font-family: 'Gotu'; color: brown;">
+            <img class="img-fluid" src="RESOURCES/Multimedia/yam.png" style="border-radius: 1rem;border: 2px solid grey;width: 3em;height: 2em;">
+            23. Poppy seeds
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapse23" class="collapse" aria-labelledby="heading23" data-parent="#accordionExample">
+        <div class="card-body">Poppy seeds</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="heading24">
+      <h2 class="mb-0" style="text-align: center ;">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse24" aria-expanded="true" aria-controls="collapse24" style="font-size: 2rem; font-family: 'Gotu'; color: brown;">
+            <img class="img-fluid" src="RESOURCES/Multimedia/jackfruit.png" style="border-radius: 1rem;border: 2px solid grey;width: 3em;height: 2em;">
+            24. Saffron
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapse24" class="collapse" aria-labelledby="heading24" data-parent="#accordionExample">
+        <div class="card-body">Saffron</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="heading25">
+      <h2 class="mb-0" style="text-align: center ;">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse25" aria-expanded="true" aria-controls="collapse25" style="font-size: 2rem; font-family: 'Gotu'; color: brown;">
+            <img class="img-fluid" src="RESOURCES/Multimedia/limabeans.png" style="border-radius: 1rem;border: 2px solid grey;width: 3em;height: 2em;">
+            25. Star anise
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapse25" class="collapse" aria-labelledby="heading25" data-parent="#accordionExample">
+        <div class="card-body">Star anise</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="heading26">
+      <h2 class="mb-0" style="text-align: center ;">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse26" aria-expanded="true" aria-controls="collapse26" style="font-size: 2rem; font-family: 'Gotu'; color: brown;">
+            <img class="img-fluid" src="RESOURCES/Multimedia/snakeGourd.png" style="border-radius: 1rem;border: 2px solid grey;width: 3em;height: 2em;">
+            26. Tailed pepper
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapse26" class="collapse" aria-labelledby="heading26" data-parent="#accordionExample">
+        <div class="card-body">Tailed pepper</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="heading27">
+      <h2 class="mb-0" style="text-align: center ;">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse27" aria-expanded="true" aria-controls="collapse27" style="font-size: 2rem; font-family: 'Gotu'; color: brown;">
+            <img class="img-fluid" src="RESOURCES/Multimedia/sweetpotato.png" style="border-radius: 1rem;border: 2px solid grey;width: 3em;height: 2em;">
+            27. Turmeric
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapse27" class="collapse" aria-labelledby="heading27" data-parent="#accordionExample">
+        <div class="card-body">Turmeric</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="heading28">
+      <h2 class="mb-0" style="text-align: center ;">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse28" aria-expanded="true" aria-controls="collapse28" style="font-size: 2rem; font-family: 'Gotu'; color: brown;">
+            <img class="img-fluid" src="RESOURCES/Multimedia/beet.png" style="border-radius: 1rem;border: 2px solid grey;width: 3em;height: 2em;">
+            28. Imli
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapse28" class="collapse" aria-labelledby="heading28" data-parent="#accordionExample">
+        <div class="card-body">Imli</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="heading29">
+      <h2 class="mb-0" style="text-align: center ;">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse29" aria-expanded="true" aria-controls="collapse29" style="font-size: 2rem; font-family: 'Gotu'; color: brown;">
+            <img class="img-fluid" src="RESOURCES/Multimedia/mushroom.png" style="border-radius: 1rem;border: 2px solid grey;width: 3em;height: 2em;">
+            29. Mint
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapse29" class="collapse" aria-labelledby="heading29" data-parent="#accordionExample">
+        <div class="card-body">Mint</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="heading30">
+      <h2 class="mb-0" style="text-align: center ;">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse30" aria-expanded="true" aria-controls="collapse30" style="font-size: 2rem; font-family: 'Gotu'; color: brown;">
+            <img class="img-fluid" src="RESOURCES/Multimedia/ridgedgourd.png" style="border-radius: 1rem;border: 2px solid grey;width: 3em;height: 2em;">
+            30. Black salt
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapse30" class="collapse" aria-labelledby="heading30" data-parent="#accordionExample">
+        <div class="card-body">Black salt</div>
+    </div>
+  </div>        
+        
+        
+</div>
+</div>
+    
+
+
+<!--    modal-->
+    <div class="modal fade" id="signIn" tabindex="-1" role="dialog" aria-labelledby="coolStuffLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title modalHead" id="contentLabel">Welcome to Nectarveda</h5>
+
+                </div>
+                <div class="modal-body signin-body">
+                    <div class="container signin-container">
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="col-10">
+                                <div class="card signin-card">
+
+                                    <div class="card-body">
+                                        <img src="RESOURCES/Multimedia/logo.jpg" class="img-fluid signInImg signin-img">
+                                        <form class="signin-form">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" id="emailInput" placeholder="Email">
+                                            </div>
+
+                                            <div class="form-group">
+                                                <input type="password" class="form-control" id="passwordInput" placeholder="Password">
+                                            </div>
+
+
+                                            <div class="form-check">
+
+                                                <label class="form-check-label">
+                                  <input class="form-check-input" type="checkbox" > Remember me
+                                </label><a href="#">Forgot Password?</a>
+                                            </div>
+
+
+                                        </form>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col"></div>
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-primary modalFoot" href="profile.html">Sign In</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="signUp" tabindex="-1" role="dialog" aria-labelledby="coolStuffLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title modalHead" id="contentLabel">Welcome to Nectarveda</h5>
+
+                </div>
+                <div class="modal-body signin-body">
+                    <div class="container signin-container">
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="col-12">
+                                <div class="card signin-card">
+
+                                    <div class="card-body">
+                                        <img src="RESOURCES/Multimedia/logo.jpg" class="img-fluid signInImg signin-img">
+                                        <form class="signin-form">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" id="emailInput" placeholder="First Name">
+                                                <div class="form-group">
+                                                    <input type="email" class="form-control" id="emailInput" placeholder="Last Name">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="email" class="form-control" id="emailInput" placeholder="Age">
+                                                </div>
+
+
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" id="emailInput" placeholder="Email">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" id="emailInput" placeholder="Mobile Number">
+                                            </div>
+
+                                            <div class="form-group">
+                                                <input type="password" class="form-control" id="passwordInput" placeholder="Password">
+                                            </div>
+                                            <div class="form-group"> 
+                                                <input type="password" class="form-control" id="passwordInput" placeholder="Confirm Password">
+                                            </div>
+
+
+                                            <div class="form-check">
+
+                                                <label class="form-check-label">
+                                  <input class="form-check-input" type="checkbox" > By creating an account you agree to our Terms and Conditions.
+                                </label>
+                                                <a href="#"></a>
+                                            </div>
+
+
+                                        </form>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col"></div>
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary modalFoot" data-dismiss="modal">Sign Up</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="bootstrap.min.js"></script>
+</body>
+
+</html>

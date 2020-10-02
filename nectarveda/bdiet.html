@@ -1,0 +1,905 @@
+<!doctype html>
+<html lang="en">
+ 
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <!--      font-awesome for icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <!--      google-fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Gilda+Display|Gotu|Macondo|Playfair+Display|Quicksand&display=swap" rel="stylesheet">
+    <!--      main style sheet-->
+    <link rel="stylesheet" href="bdiet.css"><link rel="icon" href="RESOURCES/Multimedia/logosm.jpg">
+    <title>Nectarveda | Ayurvedic Consultation Services</title>
+</head>
+
+<body> 
+<!--    top  header-->
+    <div class="container-fluid">
+        <div class="row top">
+            <div class="col col-md-6 a">
+                <a href="index.html">
+                    <img src="RESOURCES/Multimedia/logo.jpg" class="img-fluid imgLogoTop" alt="logo">
+                </a>
+            </div>
+             <div class="col-5 col-sm-5 col-md-6 b">
+                <button type="button" class="btn btn-light btn-sm btnA" data-toggle="modal" data-target="#signIn">Sign In</button>
+                <button type="button" class="btn btn-light btnB btn-sm" data-toggle="modal" data-target="#signUp">Sign Up</button>
+            </div>
+        </div>
+    </div>
+        
+<!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">
+                <h5>HOME</h5>
+            </a>
+            <button class="navbar-toggler nav " type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutUs.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="modal" data-target="#signIn" href="#">Online Consultation</a>
+                    </li>
+                    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Ayurveda
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="ayurved.html">Ayurveda</a>
+            <a class="dropdown-item" href="ayurvedAvtaran.html">Ayurveda-Avtaran</a>
+          <a class="dropdown-item" href="ashtangAyurveda.html">Ashtang Ayurveda</a>
+          <a class="dropdown-item" href="triDosha.html">Tri-Dosha</a>
+          <a class="dropdown-item" href="shapt.html">Shapt Dhatu</a>
+          <a class="dropdown-item" href="mala.html">Tri-Mala</a>
+          <a class="dropdown-item" href="shrotas.html">Shrotas</a>
+          <a class="dropdown-item" href="aam.html">Aam and Agni</a>
+          
+        </div>
+      </li>
+                    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Diseases
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="dig.html">Digestive</a>
+            <a class="dropdown-item " href="res.html">Respiratory</a>
+            <a class="dropdown-item" href="cardio.html">Cardiovascular</a>
+            <a class="dropdown-item" href="uri.html">Urinary</a>
+            <a class="dropdown-item" href="neuro.html">Neurological</a>
+            <a class="dropdown-item" href="endoc.html">Endocrine</a>
+            <a class="dropdown-item" href="muskel.html">Musculoskelatel</a>
+            <a class="dropdown-item" href="gynac.html">Gynacological</a>
+            <a class="dropdown-item" href="sexual.html">Sexual</a>
+            <a class="dropdown-item" href="infer.html">Infertility</a>
+            <a class="dropdown-item" href="skinHair.html">Skin and Hair</a>
+            <a class="dropdown-item" href="psycho.html">Psychology</a> 
+          </div>
+      </li>
+                   
+                    <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Food and Nutrition
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="bdiet.html">Balanced diet</a>
+            <a class="dropdown-item " href="fru.html">Fruits</a>
+            <a class="dropdown-item " href="dryFru.html">Dry Fruits</a>
+            <a class="dropdown-item " href="veget.html">Vegetables</a>
+            <a class="dropdown-item " href="spices.html">Spices</a>
+            <a class="dropdown-item " href="cereal.html">Cereals</a>
+            <a class="dropdown-item " href="pulse.html">Pulses</a>
+            <a class="dropdown-item " href="dairy.html">Dairy Products</a>
+            <a class="dropdown-item " href="honey.html">Honey</a>
+            <a class="dropdown-item" href="nvdiet.html">Non-Vegetarian</a>
+            
+          </div>
+      </li>
+                     <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Yoga
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="ayoga.html">Ashtang Yoga</a>
+            <a class="dropdown-item " href="yogap.html">Yoga Postures</a>
+            <a class="dropdown-item" href="pran.html">Pranayam</a>
+            <a class="dropdown-item" href="medi.html">Meditation</a>
+            
+          </div>
+      </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="health.html">Health</a>
+                    </li>
+                    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Medicinal Herbs
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <h6 class="h6 ml-4">Medicinal herbs for :</h6>
+            <a class="dropdown-item" href="mner.html">Nervous system</a>
+            <a class="dropdown-item " href="msen.html">Sensory organs</a>
+            <a class="dropdown-item" href="mcar.html">Cardiovascular system</a>
+            <a class="dropdown-item" href="mres.html">Respiratory system</a>
+            <a class="dropdown-item" href="mdig.html">Digestive system</a>
+            <a class="dropdown-item" href="mrep.html">Reproductive system</a>
+            <a class="dropdown-item" href="mfever.html">Fever</a>
+            <a class="dropdown-item" href="mheal.html">Healing wounds</a>
+            <a class="dropdown-item" href="mboost.html">Boosting energy</a>
+            <a class="dropdown-item" href="mcancer.html">Fighting cancer</a>
+            <a class="dropdown-item" href="mskin.html">Skin and Hair</a>
+            
+          </div>
+      </li>
+                </ul>
+            </div>
+
+        </nav>
+<!--body-->
+   
+     <div class="container-fluid" >
+         <div class="jumbotron mt-2" >
+         <p class="h3 mt-1" >Balanced diet</p></div>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Modern view</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Ayurvedic view</a>
+  </li>
+  
+</ul>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active bTable" id="home" role="tabpanel" aria-labelledby="home-tab"><p class="h3">Balance diet</p><hr>
+    <p>
+Balance diet is a healthy diet that contain all the nutrients in balanced manner. The nutrients of diet are classified as :<br>
+        <ol type="A">
+      <li>Macro nutrients – These nutrients makes the bulk portion of diet so it is called as macro nutrients. These macro nutrients are further classified into following categories according to their functions and molecular structure.
+            <ol>
+          <li>Carbohydrate- Main function of carbohydrate is to give energy. After digestion it break downs to glucose. Glucose burn as fuel in mitochondria by oxygen and give energy. It provides energy 4 calories per gram. This energy is utilized by the body for different function. There are two types of carbohydrates Simple and Complex.  Simple carbohydrates contain one or two sugars. It takes less time to digest and gives instant energy. It is useful when you are exhausted due to hard work, hypo glycemia, diarrhoea and dehydration. Simple carbohydrates are abundant in fruits, table sugar, honey and sweetened processed foods. While complex carbohydrates are made of three or more linked sugars. It take longer to digest than simple carbohydrates and promote satiety. Plant-based foods and whole grains are good sources of complex carbohydrates. It has low glycaemic index so it  is good for diabetic Person. As it takes time to digest and develop satiety so it is good for obese person and in high cholesterol condition.
+                </li>
+          <li>Protein- Main function of Protein is to repair the tissues. It also provide energy when required. It provides energy 4 calories per gram. After digestion it break downs to amino acid. There are 20 types of amino acids nine of them are essential must come from the diet others can be formed by the body whenever it required. Legumes, milk, egg, Fishes and mutton are the main sources of protein.</li>
+          <li>Fats- Main function of Fat is to give energy. It provides energy 9 calories per gram. It is called as reserve food in the body. After digestion it break downs to Fatty acid and glycerol. Fats are classified into four categories, based on their chemical structure: monounsaturated, polyunsaturated, saturated and trans fats. Trans fats are man-made and considered the unhealthiest because they raise bad LDL cholesterol and lower good HDL cholesterol. Saturated fats usually come from animal fats and tend to raise bad cholesterol. Unsaturated fats help lower bad cholesterol.  Fish oil and vegetable fats are the main sources of unsaturated fats.</li>
+          <li>Fibre. It is undigested part of the food. But it plays very important role in maintaining your health. It is classified into to categories. First is soluble part that dissolved in water, and get absorbed in the body. It helps in lowering down bad cholesterol LDL and increases good cholesterol HDL. Other is insoluble part. It forms roughage in digestive tract and help to evacuate bowel and prevent constipation.  Fruits and vegetables are main sources of fibre.</li>
+          <li>Water- Water is the very essential nutrient for the body. Body contains 75% of water. It helps to evacuate toxins from the body. It also helps to regulate body temperature. It helps to circulate different nutrients in the body. One should take 2-3 litters of water daily. Water should be clean and free from toxins, contaminated and polluted water causes disease like diarrhoea, dysentery and vomiting.</li>
+          </ol></li>
+            
+      <li>Micro nutrients – These are less proportion in diet but are very essential for the body. It helps in different metabolic activities in the body. They are-  
+            <ol>
+          <li>Vitamins- It is very important micronutrient and play vital role in different biological activities such as blood formation, bone formation, to boost immunity and work as anti-oxidant etc. they are divided into two categories-
+                <ol>
+              <li>Water soluble vitamins- Vitamin B and Vitamin C are water soluble vitamins. They are mostly founds in dry fruits, fruits and vegetables.</li>
+                    <li>
+                    Fat soluble Vitamins- Vitamin A, Vitamin D, Vitamin E and Vitamin K are fat soluble Vitamin. Dry fruits, Dairy products, ghee and oil are the main sources of these vitamins. 
+                    </li>
+                    <br>
+                    <br>
+              </ol></li></ol></li></ol>
+      
+            <div class=" table-responsive mr-0 pl-1" style="overflow-y: auto;height: 645px;">
+  <table class="table table-bordered">
+    <thead class="thead-dark">
+      <tr>
+        <th colspan="5"><p class="h4">VITAMIN-CHART </p></th>
+        </tr>
+        <tr>
+        <th colspan="5"><p class="h5">Water soluble Vitamins</p></th>
+        </tr>
+        
+      <tr style="position: sticky;top:0;">
+        <th style="position: sticky;top:0;">Name and Requirement (per day)</th>
+        <th style="position: sticky;top:0;">Functions</th>
+        <th style="position: sticky;top:0;">Resources</th>
+        <th style="position: sticky;top:0;">Defficency <br> Diseases</th>
+        </tr></thead>
+      <tbody>
+          <tr>
+            <th>Vitamin B1<br>(Thiamine)
+                <br>
+                <br>
+                
+                1.2mg</th>
+            <td>
+                <ul type="square">
+                    <li>Breaking down carbohydrate molecules from food</li>
+                    <li>Creating certain neuro-transmitters (brain chemicals)</li>
+                    <li>Producing fatty acids</li>
+                    <li>Synthesizing certain hormones</li>
+                </ul>
+              </td>
+<td>
+    <ul type="square">
+        <li><b>Veg-</b>Whole grains, Bread, Cereal, Pasta, Rice and <br>
+<b>Legumes</b> such as Black-beans, Soybean-seeds and Nuts</li>
+        <li><b>Non veg –</b> Pork, Trout(Fish)</li>
+    </ul>
+    
+
+</td>
+            <td>
+                <ul type="square">
+                    <li>Weight loss</li>
+                    <li>Loss of appetite</li>
+                    <li>Memory loss</li>
+                    <li>Heart problems</li>
+                    <li>Tingling and numbness in the hands and feet</li>
+                    <li>Poss of muscle mass</li>
+                    <li>Poor reflexes</li>
+                </ul>
+
+
+
+
+
+</td>
+          </tr>
+          <tr>
+            <th>Vitamin B2
+(Riboflavin)
+                <br>
+                <br>1.3 mg
+            
+</th>
+            <td>
+              <ul type="square">
+                <li>Energy production</li>
+                <li>Helps body in breaking down of fats, drugs, and steroid hormones</li>
+                <li>Converting tryptophan into niacin (vitamin B-3)</li>
+                <li>Converting vitamin B-6 into a coenzyme that the body needs</li>
+                </ul>
+              </td>
+            <td>
+              <ul type="square">
+                    <li><b>Veg-</b> Cereals, Oat meal, mushrooms, almonds, yogurt and milk</li>
+                    <li><b>Non-Veg-</b>Mutton</li>
+                </ul>
+              </td>
+            <td>
+              <ul type="square">
+                <li>Skin disorders</li>
+                <li>Sores at the corners of the mouth</li>
+                <li>Swelling of the mouth and throat</li>
+                <li>Swollen, cracked lips</li>
+                <li>Hair loss</li>
+                <li>Red, itchy eyes</li>
+                </ul>
+              </td>
+          </tr>
+          <tr>
+            <th>Vitamin B3
+(Niacin)<br><br>16mg
+</th>
+            <td>
+              <ul type="square">
+                    <li>Changing the energy in carbohydrates, fats, and proteins into a form the body can use</li>
+                    <li>Metabolic processes in the body’s cells</li>
+                    <li>Communication among cells</li>
+                    <li>Expression of DNA in cells</li>
+                </ul>
+              </td>
+            <td>
+              <ul type="square">
+                    <li><b>Veg-</b> Plant-based foods including nuts, legumes, and grains contain a natural form of niacin that the body cannot use as easily. However, manufacturers add niacin to foods such as cereals, and the body can easily use this form</li>
+                    <li><b>Non-veg-</b> Animal-based foods such as Mutton, poultry, and fish are high in NAD, which the body can easily use</li>
+                </ul>
+              </td>
+            <td>
+              <ul type="square">
+                <li>Brown discoloration of skin exposed to sunlight</li>
+                <li>Patches on skin with a rough appearance</li>
+                <li>A bright red tongue</li>
+                <li>Vomiting, diarrhoea or constipation, headache, fatigue and depression. </li>
+                </ul>
+              </td>
+          </tr>
+          <tr>
+            <th>Vitamin B5
+(Pantothenic acid)<br><br>5mg
+</th>
+            <td>
+              <ul type="square">
+                <li>Pantothenic acid is necessary for the body to create new coenzymes, proteins, and fats.</li>
+                <li>Red blood cells carry pantothenic acid throughout the body so it can use the nutrient in a variety of processes for energy and metabolism.</li>
+                </ul>
+              </td>
+            <td><ul type="square">
+                <li><b>Veg-</b>Mushrooms, sunflower seeds, avocado and cereals. </li>
+                <li><b>Non veg-</b>Mutton</li>
+                </ul></td>
+            <td>
+              <ul type="square">
+                    <li>Numbness and burning of the hands and feet</li>
+                    <li>Headache</li>
+                    <li>Irritability</li>
+                    <li>Restlessness and poor sleep</li>
+                    <li>Poor appetite</li>
+                </ul>
+              </td>
+          </tr>
+          <tr>
+            <th>Vitamin B6
+(Pyridoxin)<br><br>1.7mg
+</th>
+            <td><ul type="square">
+                <li>Breaking down carbohydrates and fats</li>
+                <li>Amino acid metabolism</li>
+                <li>Brain development</li>
+                <li>Boosts immunity</li>
+                </ul></td>
+            <td>
+              <ul type="square">
+                <li><b>Veg-</b> Potatoes, fortified cereals</li>
+                <li><b>Non veg-</b> Mutton, eggs, salmon, pork.</li>
+                </ul></td>
+            <td>
+              <ul type="square">
+                <li>Anemia</li>
+                <li>Scaling of lips</li>
+                <li>Cracks at corner of mouth</li>
+                <li>Swollen tongue</li>
+                <li>Week immune system</li>
+                <li>Confusion</li>
+                <li>Depression</li>
+                </ul>
+              </td>
+          </tr>
+          <tr>
+            <th>Vitamin B7
+(Biotin)<br><br>30mcg
+</th>
+            <td><ul type="square">
+                <li>Breaking down fats, carbohydrates, and protein</li>
+                <li>Communication among cells in the body
+•	regulation of DNA</li>
+                </ul></td>
+            <td><ul type="square">
+                <li>Veg- Sunflower seeds and cheese</li>
+                <li>Non veg- Mutton, eggs, salmon, pork.</li>
+                </ul></td>
+            <td>
+              <ul type="square">
+                <li>Thinning of the hair</li>
+                <li>A scaly rash around eyes, nose, and mouth</li>
+                <li>Brittle nails</li>
+                <li>Depression</li>
+                <li>Fatigue</li>
+                </ul>
+              </td>
+          </tr>
+          <tr>
+            <th>Vitamin B9
+(Folate)<br>
+                <br>
+                400mcg
+</th>
+            <td><ul type="square">
+                <li>DNA replication</li>
+                <li>Metabolism of vitamins</li>
+                <li>Metabolism of amino acids</li>
+                <li>Proper cell division</li>
+                </ul></td>
+            <td><ul type="square">
+                <li><b>Veg-</b> Dark green leafy vegetables
+Avocado, papaya, orange juice, beans
+nuts
+</li>
+                <li><b>Non-veg-</b> Eggs, mutton</li>
+                </ul></td>
+            <td><ul type="square">
+                <li>Weakness</li>
+                <li>Headache</li>
+                <li>Heart palpitations</li>
+                <li>Irritability</li>
+                <li>Sore in mouth or on tongue</li>
+                <li>Pathological changes in Skin, hair, nail</li>
+                </ul></td>
+          </tr> 
+          <tr>
+            <th>Vitamin B12 (Cobalamin)<br><br>2.5mg</th>
+            <td>
+                <ul type="square">
+                <li>Creating new RBCs</li>
+                <li>DNA synthesis</li>
+                <li>Improves Brain and neurological function</li>
+                <li>Helps in Fat and protein metabolism</li>
+                </ul>
+              </td>
+            <td><ul type="square">
+                <li><b>Veg-</b> Milk and yogurt</li>
+                <li><b>Non-veg-</b> Clams (Shell-fish), mutton, salmon</li>
+                </ul></td>
+            <td><ul type="square">
+                <li>Fatigue</li>
+                <li>Weight loss</li>
+                <li>Constipation</li>
+                <li>Poor appetite</li>
+                <li>Numbness and tingling in the hands and feet</li>
+                <li>Memory loss</li>
+                <li>Depression</li>
+                </ul></td>
+          </tr>
+          <tr>
+            <th>Vitamin C
+(Ascorbic acid)<br><br>14mg
+</th>
+            <td>
+                <ul type="square">
+                <li>Improves Skin</li>
+                <li>Strenthen Bones and Cartilage</li>
+                <li>Strenthen Ligaments and tendons</li>
+                <li>Improves blood vessel walls</li>
+                <li>Strenthen Teeth</li>
+                </ul></td>
+            <td>
+                <ul type="square">
+              <li><b>Veg- </b>Citrus fruits like oranges, grapefruit, limes and lemons.<br>
+Berries such as blackcurrants, strawberries, raspberries, blueberries and cranberries.<br>
+Cantaloupe melon and watermelon.<br>
+Kiwi fruit.<br><br>
+Vegetables such as spinach, green and red peppers, tomatoes, cauliflower, cabbage, broccoli, Brussels sprouts and potatoes.<br><br>
+ <i>Cooking fruit and vegetables reduces their vitamin C content by around a third</i>
+</li><br>
+                <li><b>Non-veg- </b>Fish</li></ul>
+              </td>
+            <td><ul type="square">
+                <li>Tiredness and weakness</li>
+                <li>Muscle and joint pains</li>
+                <li>Easy bruising</li>
+                <li>Spots that look like tiny, red-blue bruises on your skin</li>
+                <li>Dry skin and splitting hair</li>
+                <li>Swelling and discoloration of your gums</li>
+                <li>Sudden and unexpected bleeding from your gums</li>
+                <li>Nosebleeds</li>
+                <li>Poor healing of wounds</li>
+                <li>Joint pain and weight loss</li>
+                </ul></td>
+          </tr>
+      </tbody>
+      <thead class="thead-dark">
+      <tr>
+          <th colspan="5"><p class="h5">Fat soluble vitamins</p></th>
+                    </tr>
+      </thead>
+      
+      <tbody>
+      <tr>
+          <th>Vitamin A<br><br>700mcg</th>
+          <td><ul type="square">
+              <li>Improves Vision</li>
+              <li>Enhances Immunity power</li>
+              </ul>
+</td>
+          <td>
+          <ul type="square">
+              <li><b>Veg-</b> Plant sources provide carotenoids, such as beta-carotene, which is a powerful antioxidant. The body can convert these into vitamin A.
+For this reason, lists of ingredients often show vitamin A content as “vitamin A RAE.” RAE means “retinol activity equivalents.” <br><br>&#9679;Sources of beta carotene include:
+sweet potato, kale, spinach, and other green, leafy vegetables, carrots
+cantaloupe, black-eyed peas
+fortified breakfast cereals
+cheese, milk, and other dairy products
+</li>
+              <li><b>Non veg- </b>Animal sources provide preformed vitamin A, or retinols. This type is ready for the body to use.
+Animal sources of vitamin A include:
+fish liver oil, beef liver
+</li>
+              </ul>
+          </td>
+          <td>
+          <ul type="square">
+              <li>Loss of vision</li>
+              <h6>Overdose of Vitamin A leads to :</h6>
+              <li>It can affect: people who take vitamin A supplements,
+those with a high intake of fish liver oil,
+people who take medications that contain retinoids, such as acitretin (Soria Tane), a treatment for psoriasis. <br><br>
+During pregnancy, high levels of vitamin A can harm a growing fetus.
+                  <br>
+                  <br>
+</li>
+              
+              
+              </ul><b>Symptoms of an overdose include:
+Headaches, fatigue, nausea and dizziness.</b></td>
+          </tr>
+      <tr>
+          <th>Vitamin D<br><br>600mcg</th>
+          <td><ul type="square">
+              <li>Maintains bone health</li>
+              <li>Boost immunity</li>
+              </ul></td>
+          <td>
+          <ul type="square">
+              <li>The body obtains the compounds it needs to make vitamin D from food. <br>&#9679; It also produces vitamin D when ultraviolet (UV) light meets the skin.</li><br>
+              <li>Vitamin D is not a single substance but a group of compounds collectively known as <b>calciferol</b>.<br>
+The body absorbs calciferol into the bloodstream and then converts it to <b>calcitriol</b>.
+</li><br>
+              <li>Two types that occurs naturally :<br>
+&#9679; Vitamin D-3, found in animal fats oily fish and fish oils, beef liver, eggs.<br>
+&#9679; Vitamin D-2, found in plants, such as mushrooms, fortified dairy products, plant-based milks, and cereals
+</li>
+              </ul>
+          </td>
+          <td>
+          <ul type="square">
+              <li><b>Osteoporosis</b> or loss of bone mass</li>
+              <li><b>Osteomalacia</b> when bones become soft</li>
+              <li><b>Ricket - </b> when a child’s bones does not develop properly.
+
+</li><li>Increased risk of infection and autoimmunity</li><br><h6><b>Overdose:</b></h6>
+              <p style="text-align: left">It is rare for a person to have too much vitamin D, but using supplements it could be triggered.</p>
+              <li>Having too much vitamin D could lead to high levels of calcium in blood.<br>
+This can lead to: <b>nausea, headaches,
+low appetite and weight loss, a build-up of calcium in tissues and blood vessels
+heart or kidney damage.</b>
+</li>
+              </ul>
+          </td>
+          </tr>
+      <tr>
+          <th>Vitamin E<br><br>15mg</th>
+          <td><ul type="square">
+              <li>Antioxidant</li>
+              <li>Boost immunity</li>
+              <li>Dilate blood vessels and help prevent clotting</li>
+              <li>Spinach and broccoli
+kiwi fruit and mango
+</li>
+              </ul></td>
+          <td>
+          <ul type="square">
+              <li>Wheat germ oil</li>
+              <li>Sunflower seeds and oil</li>
+              <li>Almonds, hazelnuts, and peanuts</li>
+              <li>Spinach and broccoli
+kiwi fruit and mango
+</li>
+              </ul>
+          </td>
+          <td><ul type="square">
+              <li>Nerve and muscle damage that affects movement and coordination</li>
+              <li>vision problems</li>
+              <li>Weak Immunity power</li>
+              <li>As vitamin E is an antioxidant, a long-term deficiency could increase the overall risk of various diseases.</li><br><br>
+              <h6><b>Overdose :</b></h6>
+              
+              <li>Obtaining vitamin E through natural sources is unlikely to lead to an overdose, although supplement use can increase this risk.</li>
+              <li>People who use blood-thinning medication, such as warfarin (Coumadin) should ask their doctor before taking vitamin E supplements, as these may interfere with blood clotting.</li>
+              </ul></td>
+          </tr>
+      <tr>
+          <th>Vitamin K<br><br>90-120 mcg</th>
+          <td>
+          <ul type="square">
+              <li>Helps in clotting of blood.</li>
+              <li>Lower the risk of heart disease </li>
+              <li>Strenthen bones</li>
+              <li>Reduces the building up of calcium in the blood</li>
+              </ul></td>
+          <td>
+          <ul type="square">
+              <li><b>Vitamin K-1 (phylloquinone),</b> is present in green, leafy vegetables, spinach
+and some other plant sources
+</li>
+              <li><b>Vitamin K-2 (menaquinones),</b> present in animal sources and fermented foods
+Food sources of vitamin K-1 and K-2 include: liver, egg yolks, kale, kersley, butter.
+</li>
+              
+              </ul>
+          </td>
+          <td><li type="square">Results in poor clotting of blood</li></td>
+          </tr>
+      
+      </tbody>
+  </table>
+</div>
+    
+                <br>
+                <br>
+          <ol>
+                <li type=none>
+                    
+                    2.<b>Minerals-</b>   It plays very important role in different metabolic activities in the body. It is important for blood formation, Bones formation, Muscle contraction and generation of nerve impulses. It also regulate blood pressure in the body. Like vitamins, they assist enzymes in many body processes. Vitamins are organic substances whereas minerals are inorganic substances. A healthy person need 250 mg of minerals daily. In contrast, the body needs smaller amounts of trace minerals, usually less than 20 milligrams. The  trace minerals include fluoride, chromium, iodine, iron, chromium and zinc. Milk, leafy vegetables, dry fruits and meat are the good mineral sources.</li></ol>
+          </div>
+  <div class="tab-pane fade bTable" id="profile" role="tabpanel" aria-labelledby="profile-tab"><p class="h3">Ayurvedic View of balanced diet</p>
+    <hr>
+    <p style="text-align: left; margin: 1em">Ayurveda is a very natural science. It is an oldest medicinal science. That time there was no concept of nutritional value like carbohydrate, protein, fat, vitamin and minerals. But there it is mentioned  that one should include foods of all taste in their diet in balanced proportion to be healthy. 
+<br><br>
+
+<img src="RESOURCES/Multimedia/rasha-panch-bhautik.PNG" class="img-fluid d-block m-auto">
+Behind this concept, theory is that body is composed of five universal element Akash (space), Vayu (air), Agni (fire), Jala (water) and Prithvi (earth).  There are six taste and each compose of two universal element. So when one consume all types of taste in food in balanced way than the five universal component in the body get balanced and body remains healthy.</p><hr>
+        
+        <div class="card tongue col-10 col-sm-6" >
+            <div class="card-header"><p class="h5">TONGUE</p></div>
+            <div class="card-body">
+        <img src="RESOURCES/Multimedia/tongue.jpg" class="img-fluid d-block m-auto"></div>
+            <div class="card-footer"><p class="h6">Different spots of taste on tongue</p></div></div><hr>
+        <br>
+<p>
+More details about these six taste is as below-<br>
+1.	Swadu (Sweet)- It is composed of water and earth. On eating sweet things it coated the whole mouth gums and teeth by its sticky nature. It nourishes whole body and give good feeling. It is very much liked by ant.<img src="RESOURCES/Multimedia/madhur-def.PNG" class="img-fluid d-block m-auto"> <br>
+All the macro nutrient Carbohydrate, Protein and Fats comes under this group. <br><br>
+
+Action- Benefits<br>
+
+
+<img src="RESOURCES/Multimedia/madhur-benifits.PNG" class="img-fluid d-block m-auto"><br>
+
+•	It is liked by every one and every age group. Very less people dislike it.<br>
+•	It nourishes the whole body and gives strength. As we know sweet things contain glucose in excess amount which give energy to the body.<br>
+•	It is good for child as well as aged person.<br>
+•	It works as tonic for weak and exhausted Person.<br>
+•	It is good for glowing skin, for healthy hair and senses. It gives internal energy to the body.<br>
+•	It promote growth, good for throat and It promotes milk formation.<br>
+•	It promote healing and repair wear and tear of the body.  <br>
+•	It is heavy to digest and develop unctuous in the body.<br>
+•	It is Life giving and Life prolonging. As we see in emergency drip of Dextrose (glucose) is given to serious patient to save their life.<br>
+•	It Pacify Vata and Pitta dosha in the body. It also help on detoxifying body.<br><br>
+Bad effects-<br>
+        <img src="RESOURCES/Multimedia/madhur-harm.PNG" class="img-fluid d-block m-auto"><br>
+
+
+•	On excess consumption of sweet things it leads to obesity, aggravate cough problem (breathing, coughing, sneezing,) and it weakens digestion process.<br>
+•	 On excess use It develops Diabetes, mumps and boil or tumour problem. <br><br>
+
+                         <br><br><br>
+      </p><hr><p style="text-align: left; margin: 1em">
+2.	Amla (Sour)- It is composed of earth and fire. Sour taste give scrubbing effect to mouth make teeth sensitive and body hair erecting. It gives sensation to closing eye, constrict eye brow.
+      <br><img src="RESOURCES/Multimedia/amla-def.PNG" class="img-fluid d-block m-auto"><br>
+
+Action-  Benefits<br>
+
+
+<img src="RESOURCES/Multimedia/amla-benifit.PNG" class="img-fluid d-block m-auto"><br>
+
+•	It promote digestive fire, help digestion and improve appetite.<br>
+•	It is easy to digest.<br>
+•	It keep body unctuous and is good for heart.<br>
+•	It is hot in potency and cold in touch.<br>
+•	It helps in nourishing and keep body moist.<br>
+•	It help in formation of Kapha, Pitta and blood.<br>
+•	It helps in releasing gasses from the body and passing flatus.<br><br>
+                   
+
+                                Harmful defect- On excess use-<br><img src="RESOURCES/Multimedia/amla-harm.PNG" class="img-fluid d-block m-auto"><br>
+•	 It makes the body loose, reduces vision and vertigo.<br> 
+•	It causes itching in the body, urticaria, blisters, oedema and anaemia.<br>
+•	It causes thirst, and fever.<br>   <br><br>
+      </p><hr><p style="text-align: left; margin: 1em">
+3.	Lavan (Salt)- It is composed of water and fire. It makes mouth watery by secreting saliva and develop burning in mouth. 
+<br><img src="RESOURCES/Multimedia/lavan-def.PNG" class="img-fluid d-block m-auto"><br>
+
+Actgion- Benefits <br>
+<img src="RESOURCES/Multimedia/lavan-benifit.PNG" class="img-fluid d-block m-auto"><br>
+
+•	Salt breaks blockage and open channels by its penetrating property. <br>
+•	It improves digestion and develop interest of eating.<br> 
+•	It reduces dryness by enhancing sweating. <br><br>
+
+Harmful effect on excess use<br>
+      <img src="RESOURCES/Multimedia/lavan-harm.PNG" class="img-fluid d-block m-auto"><br>
+•	On excess use it causes Vatrakta (Gout), hair fall (alopacea), Greying hair and wrinkles.<br>
+•	It develops thirst, skin problem, toxicity and urticaria.<br>
+•	It reduces strength.<br>
+</p>
+    <hr>
+      <p style="text-align: left; margin: 1em">
+      4.	Tikta (Bitter)- It is composed of air and space so it is of low calory value. Bitter taste purifies mouth and hurt tongue.
+<br><img src="RESOURCES/Multimedia/tikta-def.PNG" class="img-fluid d-block m-auto"><br>
+
+
+      Action – Benefits<br><img src="RESOURCES/Multimedia/tikta-benifit.PNG" class="img-fluid d-block m-auto"><br>
+•	Bitter taste it self is not tasty but it develops taste for other food.<br>
+•	It acts as anti worm and reduce skin problem by detoxifing the body.<br>
+•	It helps to reduce fever,  reduce thirst and burning in the body.<br>
+•	It reduces nausea and prevent subconsiousness. <br>
+
+
+
+
+
+
+
+
+•	It passify aggravated pitta and aggravated Kapha.<br>
+•	It reduces water, fats, stool, urine and semen in the body.<br>
+•	It is easily digestable, boost memory.<br>
+•	It is cold in potency means reduces the metabolic rate in the body. Develop dryness in the body.<br>
+•	Purify breast milk and improve voice.<br><br>
+                                     Harmful effect on excess use-<br><img src="RESOURCES/Multimedia/tikta-harm.PNG" class="img-fluid d-block m-auto"><br>
+•	It reduces the formation of cells and tissue in the body.<br>
+•	It aggravate in developing vat related diseases like pain in joint, weakness and other neurological problem.<br>
+
+
+      </p><hr><p style="text-align: left; margin: 1em">
+      5.	Katu (Pungent)- It is composed of air and fire. It also have low calory valu but are hot in potency so it aggravate metabolic rate in the body. It Trigger tip of Tongue and irritate it.
+It aggravate salivation, promote lacrition and secrets watery discharge from nostril. It gives buning sensation to mouth.<br><img src="RESOURCES/Multimedia/katu-def.PNG" class="img-fluid d-block m-auto"><br>
+
+                       Action- Benefits-<br><img src="RESOURCES/Multimedia/katu-benifit.PNG" class="img-fluid d-block m-auto"><br>
+•	It helps to reduce throat related problem, urticaria and skin related problem.<br>
+•	It reduces inflammation and clear blockages.<br>
+•	It promotes healing absorb oilyness, fats and water in the body.<br>
+•	It improves appetite, promote digestion and develops interest in food.<br>
+•	It helps in absorbing digested food and evacuate waste from the body.<br>
+•	It passify kapha dosha, clear passages and open channels of the body.<br><br>
+
+
+Harm on excess use-<br><img src="RESOURCES/Multimedia/katu-harm.PNG" class="img-fluid d-block m-auto"><br>
+•	It develops thrist on excess intake. Reduces semen and weakens the body.<br>
+•	It may brings subconsiousness on excess use.<br>
+•	It may causes tremor and pain in back and lumber region.<br>
+
+      </p>
+      <hr>
+      <p style="text-align: left; margin: 1em">
+      6.	Kashay (Astringent)- It is composed of air and earth. It brings stiffness in tongue and causes chocking in throat and channels by seasing secretions. It causes constipation.<br><img src="RESOURCES/Multimedia/kashya-def.PNG" class="img-fluid d-block m-auto"><br>
+
+                       
+                Action-Benefits-<br><img src="RESOURCES/Multimedia/kashya-benifit.PNG" class="img-fluid d-block m-auto"><br>
+•	It passify Pitta and cough dosha, heavy to digest and purifies blood. <br>
+•	It is good for healing wounds and reduces fat and absorbs water.<br>
+•	It is cold in potency means slow down the metabolic activities.<br>
+•	It blocks toxins to expel out and reduces loose motion.<br>
+•	It causes dryness on the body and cleans skin.  
+
+<br><br>
+                        Harmful effects on excess use-<br><img src="RESOURCES/Multimedia/kashya-harm.PNG" class="img-fluid d-block m-auto"><br>
+•	On excess intake it causes constipation, distention of abdomen and channel blockage.<br>
+•	It causes thrist, slimness and sexual debility.<br>
+
+      </p><hr>
+    </div>
+  
+</div>
+    </div>
+    
+
+
+<!--    modal-->
+    <div class="modal fade" id="signIn" tabindex="-1" role="dialog" aria-labelledby="coolStuffLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title modalHead" id="contentLabel">Welcome to Nectarveda</h5>
+
+                </div>
+                <div class="modal-body signin-body">
+                    <div class="container signin-container">
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="col-10">
+                                <div class="card signin-card">
+
+                                    <div class="card-body">
+                                        <img src="RESOURCES/Multimedia/logo.jpg" class="img-fluid signInImg signin-img">
+                                        <form class="signin-form">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" id="emailInput" placeholder="Email">
+                                            </div>
+
+                                            <div class="form-group">
+                                                <input type="password" class="form-control" id="passwordInput" placeholder="Password">
+                                            </div>
+
+
+                                            <div class="form-check">
+
+                                                <label class="form-check-label">
+                                  <input class="form-check-input" type="checkbox" > Remember me
+                                </label><a href="#">Forgot Password?</a>
+                                            </div>
+
+
+                                        </form>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col"></div>
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-primary modalFoot" href="profile.html">Sign In</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="signUp" tabindex="-1" role="dialog" aria-labelledby="coolStuffLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title modalHead" id="contentLabel">Welcome to Nectarveda</h5>
+
+                </div>
+                <div class="modal-body signin-body">
+                    <div class="container signin-container">
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="col-12">
+                                <div class="card signin-card">
+
+                                    <div class="card-body">
+                                        <img src="RESOURCES/Multimedia/logo.jpg" class="img-fluid signInImg signin-img">
+                                        <form class="signin-form">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" id="emailInput" placeholder="First Name">
+                                                <div class="form-group">
+                                                    <input type="email" class="form-control" id="emailInput" placeholder="Last Name">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="email" class="form-control" id="emailInput" placeholder="Age">
+                                                </div>
+
+
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" id="emailInput" placeholder="Email">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" id="emailInput" placeholder="Mobile Number">
+                                            </div>
+
+                                            <div class="form-group">
+                                                <input type="password" class="form-control" id="passwordInput" placeholder="Password">
+                                            </div>
+                                            <div class="form-group"> 
+                                                <input type="password" class="form-control" id="passwordInput" placeholder="Confirm Password">
+                                            </div>
+
+
+                                            <div class="form-check">
+
+                                                <label class="form-check-label">
+                                  <input class="form-check-input" type="checkbox" > By creating an account you agree to our Terms and Conditions.
+                                </label>
+                                                <a href="#"></a>
+                                            </div>
+
+
+                                        </form>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col"></div>
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary modalFoot" data-dismiss="modal">Sign Up</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="bootstrap.min.js"></script>
+</body>
+
+</html>

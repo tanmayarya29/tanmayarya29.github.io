@@ -1,0 +1,212 @@
+.top{
+    background-color:  #4d0000;
+    padding: 0.5rem;
+    
+}
+
+.navbar{
+    background: #4d0000 !important;
+}
+.leftNav{
+    background-color: aliceblue;
+}
+/*body*/
+.body{
+    background-color:antiquewhite;
+    color: brown;
+    margin: auto
+    
+}
+.card-header{
+    background-color: antiquewhite;
+    
+}
+.thumb{
+    width: 12em;
+    
+}
+button img{
+    float: left;
+}
+
+th td {
+    font-size: 1px;
+}
+.sloka{
+
+    border-radius: 0.4rem; 
+    border: 1px solid white;
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.5);
+}
+.imgLogoTop{
+    width: 11rem;
+    border-radius: 0.4rem; 
+    border: 1px solid white;
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.5);
+}
+.nameLogo{
+    font-size: 0.5rem
+}
+ 
+.btnA,.btnB{
+    border: 1px solid darkgreen ;
+    width: 5rem;
+}
+
+.btnA:hover,.btnB:hover{
+    background:linear-gradient(green,darkgreen);
+    color: aliceblue;
+}
+
+
+.a{
+    padding-left: 0rem;
+    margin: auto;
+}
+.b{
+    padding-right: 0;
+    margin: auto;
+    text-align: right
+}
+.modalFoot{
+    display: block;
+    margin: auto;
+    background-color: darkgreen;
+    border:1px solid white
+}
+.modalFoot:hover{
+    background-color:aliceblue;
+    color: darkgreen;
+    border:1px solid darkgreen
+}
+.modalHead{
+    margin: auto;
+    color: green;
+    font-family: 'Gotu';
+    font-weight: 600;
+}
+
+.car{
+    margin: auto; 
+    display: block;
+}
+.middle{
+    margin: auto;
+    background-color: lightgray;
+    padding: 2rem;
+}
+.midcol{
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 1rem;
+}
+
+.btnCenter{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    
+}
+
+.jumbotron {
+    text-align: center;
+    background:linear-gradient(crimson,red);
+    color: aliceblue;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    border-radius: 8px;
+}
+jumbotron:hover{
+    background-color: aliceblue;
+    color: red;
+}
+p{
+    text-align: center;
+    
+}
+.c1{
+    background:linear-gradient(to top,lightgray,lightgray);
+}
+.size{
+    
+    padding: 1px;
+    background-color: aliceblue;
+    border-radius: 8px;  
+    box-shadow: 6px 6px 5px rgba(0,0,0,0.9);
+    margin: 10px;
+}
+
+.fa.fa-facebook-square{
+    color: #3b5998;
+    background-color: aliceblue;   
+    
+}
+.fa{
+    color: #3b5998;
+    background-color: aliceblue;
+    border-radius: 50%;box-shadow: 3px 3px 9px rgba(0,0,0,0.9);
+    margin: 5px;
+}
+.foot{
+   margin: auto;
+    padding: 1rem;
+    background: linear-gradient(to right,#651a1a,#d04949,#651a1a);
+}
+
+.footsy{
+    text-align: right;
+    margin-top: 1rem;
+    
+}
+
+
+
+
+/*Sign in, sign up  and feedback modal styling*/
+.signin-body{
+    background-color:darkgreen;
+}
+
+
+.card.signin-card{
+    background-color: #f4f4f4;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    width: 100%;
+    
+    
+}
+
+img.signin-img{
+    
+    margin:auto;
+    display: block;
+    width: 70%;
+    border-radius: 0.4rem; 
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.5);
+    
+}
+
+form.signin-form{
+    margin: auto;
+    max-width: 350px;
+    padding-top: 1.5rem !important;
+    
+    
+}
+.fbacktext{
+    width: 16rem;
+    height: 10rem;
+    display: block;
+    margin: auto;
+    padding: 2rem;
+    
+}
+.fbackform{
+    text-align: start ;
+    margin: auto;
+}
+

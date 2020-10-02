@@ -1,0 +1,248 @@
+.top{
+    background-color:  #4d0000;
+    padding: 0.5rem;  
+    
+}
+
+.navbar{
+    background: #4d0000 !important;
+    
+}
+
+/*body*/
+.tglBtn{
+    background-color: royalblue;
+    border-style: none;
+    width: 7em;
+    height: 2.5em;
+    border-radius: 0.3em;
+    color: aliceblue;
+    transition: box-shadow 0.5s;
+}
+.tglBtn:hover{
+    
+    box-shadow: 5px 0px 20px rgba(0,0,0,0.6);
+    
+}
+ 
+.fa-angle-double-down{
+    width: 1em;
+}
+
+.head_img{
+    border-radius: 50%;
+     box-shadow: 3px 3px 5px rgba(0,0,0,0.9);;
+    
+    
+}
+.col-3 .img-fluid{
+     border-radius: 50%;
+     box-shadow: 3px 3px 5px rgba(0,0,0,0.9);
+     width: 50%;
+    height: 50%;
+    display: block;
+    margin: 0.3em;
+    transition: 0.3s;
+   
+}
+.col-3 .img-fluid:hover{
+    width: 90%;
+    height: 90%;
+    position: sticky;
+    z-index: 1000;
+    
+    
+}
+.row .col p{
+    text-align:right;
+    margin: 1em;
+}
+.flo{
+    background-color:floralwhite;
+}
+.card-header{
+    background-color:floralwhite;
+    margin:auto;
+    display: block;
+    
+    
+}
+.card-body{
+    background-color: white;
+}
+.row_header{
+    background-color: lemonchiffon
+}
+.header{
+    background: radial-gradient(white 20%,lightgreen 70%)
+}
+.header_text{
+    font-family: 'Gotu';
+    font-size: 40px;
+    color: brown;
+}
+.header_img{
+    width: 1em;
+    border-radius: 50%;
+    border: 1px solid orange;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.9);
+    
+}
+.Body{
+    background: radial-gradient(white,yellow,coral);
+    
+}
+.body_text{
+    font-size: 30px;
+    font-family: 'Gotu';
+    color: brown;
+}
+.body_img{
+    width: 1.2em;
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.9);
+}
+.cont{
+    padding: 2rem;
+}
+.card{
+    border-radius: 1rem;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.9);
+}
+.card-head{
+    padding-top: 0.3em;
+    text-align: center;
+    font-family:'Gotu';
+    font-size: 2em;
+    color: darkblue;
+    font-weight: 600
+}
+
+
+.imgLogoTop{
+    width: 11rem;
+    border-radius: 0.4rem; 
+    border: 1px solid white;
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.5);
+}
+
+ 
+.btnA,.btnB{
+    border: 1px solid darkgreen ;
+    width: 5rem;
+}
+
+.btnA:hover,.btnB:hover{
+    background:linear-gradient(green,darkgreen);
+    color: aliceblue;
+}
+
+
+.a{
+    padding-left: 0rem;
+    margin: auto;
+}
+.b{
+    padding-right: 0;
+    margin: auto;
+    text-align: right
+}
+.modalFoot{
+    display: block;
+    margin: auto;
+    background-color: darkgreen;
+    border:1px solid white
+}
+.modalFoot:hover{
+    background-color:aliceblue;
+    color: darkgreen;
+    border:1px solid darkgreen
+}
+.modalHead{
+    margin: auto;
+    color: green;
+    font-family: 'Gotu';
+    font-weight: 600;
+}
+
+
+.jumbotron {
+    text-align: center;
+    padding: 1em;
+    background:radial-gradient(white 20%,#ffcc99 120%);
+    color: brown;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    border-radius: 1em;
+    font-family: 'Gotu',serif;
+}
+button.noH:hover,button.noH:enabled{
+    text-decoration: none;
+    color: brown
+}
+
+p{
+    text-align: center;
+    
+}
+
+
+.fa.fa-facebook-square{
+    color: #3b5998;
+    background-color: aliceblue;   
+    
+}
+.fa{
+    color: #3b5998;
+    background-color: aliceblue;
+    border-radius: 50%;box-shadow: 3px 3px 9px rgba(0,0,0,0.9);
+    margin: 5px;
+}
+.foot{
+   margin: auto;
+    padding: 1rem;
+    background: linear-gradient(to right,#651a1a,#d04949,#651a1a);
+}
+
+.footsy{
+    text-align: right;
+    margin-top: 1rem;
+    
+}
+
+
+
+
+/*Sign in, sign up  and feedback modal styling*/
+.signin-body{
+    background-color:darkgreen;
+}
+
+
+.card.signin-card{
+    background-color: #f4f4f4;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    width: 100%;
+    
+    
+}
+
+img.signin-img{
+     
+    margin:auto;
+    display: block;
+    width: 70%;
+    border-radius: 0.4rem; 
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.5);
+    
+}
+
+form.signin-form{
+    margin: auto;
+    max-width: 350px;
+    padding-top: 1.5rem !important;
+    
+    
+}
+

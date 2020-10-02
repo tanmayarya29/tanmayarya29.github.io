@@ -1,0 +1,580 @@
+<!doctype html> 
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <!--      font-awesome for icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--      google-fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Gilda+Display|Gotu|Macondo|Playfair+Display|Quicksand&display=swap" rel="stylesheet">
+    <!--      main style sheet-->
+    <link rel="stylesheet" href="ayoga.css"><link rel="icon" href="RESOURCES/Multimedia/logosm.jpg">
+    <title>Nectarveda | Ayurvedic Consultation Services</title>
+</head>
+
+<body>
+<!--    top  header-->
+    <div class="container-fluid">
+        <div class="row top">
+            <div class="col col-md-6 a">
+                <a href="index.html">
+                    <img src="RESOURCES/Multimedia/logo.jpg" class="img-fluid imgLogoTop" alt="logo">
+                </a>
+            </div>
+             <div class="col-5 col-sm-5 col-md-6 b">
+                <button type="button" class="btn btn-light btn-sm btnA" data-toggle="modal" data-target="#signIn">Sign In</button>
+                <button type="button" class="btn btn-light btnB btn-sm" data-toggle="modal" data-target="#signUp">Sign Up</button>
+            </div>
+        </div>
+    </div>
+        
+<!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">
+                <h5>HOME</h5>
+            </a>
+            <button class="navbar-toggler nav " type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutUs.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="modal" data-target="#signIn" href="#">Online Consultation</a>
+                    </li>
+                    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Ayurveda
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="ayurved.html">Ayurveda</a>
+            <a class="dropdown-item" href="ayurvedAvtaran.html">Ayurveda-Avtaran</a>
+          <a class="dropdown-item" href="ashtangAyurveda.html">Ashtang Ayurveda</a>
+          <a class="dropdown-item" href="triDosha.html">Tri-Dosha</a>
+          <a class="dropdown-item" href="shapt.html">Shapt Dhatu</a>
+          <a class="dropdown-item" href="mala.html">Tri-Mala</a>
+          <a class="dropdown-item" href="shrotas.html">Shrotas</a>
+          <a class="dropdown-item" href="aam.html">Aam and Agni</a>
+          
+        </div>
+      </li>
+                    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Diseases
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="dig.html">Digestive</a>
+            <a class="dropdown-item " href="res.html">Respiratory</a>
+            <a class="dropdown-item" href="cardio.html">Cardiovascular</a>
+            <a class="dropdown-item" href="uri.html">Urinary</a>
+            <a class="dropdown-item" href="neuro.html">Neurological</a>
+            <a class="dropdown-item" href="endoc.html">Endocrine</a>
+            <a class="dropdown-item" href="muskel.html">Musculoskelatel</a>
+            <a class="dropdown-item" href="gynac.html">Gynacological</a>
+            <a class="dropdown-item" href="sexual.html">Sexual</a>
+            <a class="dropdown-item" href="infer.html">Infertility</a>
+            <a class="dropdown-item" href="skinHair.html">Skin and Hair</a>
+            <a class="dropdown-item" href="psycho.html">Psychology</a> 
+          </div>
+      </li>
+                   
+                    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Food and Nutrition
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="bdiet.html">Balanced diet</a>
+            <a class="dropdown-item " href="fru.html">Fruits</a>
+            <a class="dropdown-item " href="dryFru.html">Dry Fruits</a>
+            <a class="dropdown-item " href="veget.html">Vegetables</a>
+            <a class="dropdown-item " href="spices.html">Spices</a>
+            <a class="dropdown-item " href="cereal.html">Cereals</a>
+            <a class="dropdown-item " href="pulse.html">Pulses</a>
+            <a class="dropdown-item " href="dairy.html">Dairy Products</a>
+            <a class="dropdown-item " href="honey.html">Honey</a>
+            <a class="dropdown-item" href="nvdiet.html">Non-Vegetarian</a>
+            
+          </div>
+      </li>
+                     <li class="nav-item active dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Yoga
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="ayoga.html">Ashtang Yoga</a>
+            <a class="dropdown-item " href="yogap.html">Yoga Postures</a>
+            <a class="dropdown-item" href="pran.html">Pranayam</a>
+            <a class="dropdown-item" href="medi.html">Meditation</a>
+            
+          </div>
+      </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="health.html">Health</a>
+                    </li>
+                    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Medicinal Herbs
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <h6 class="h6 ml-4">Medicinal herbs for :</h6>
+            <a class="dropdown-item" href="mner.html">Nervous system</a>
+            <a class="dropdown-item " href="msen.html">Sensory organs</a>
+            <a class="dropdown-item" href="mcar.html">Cardiovascular system</a>
+            <a class="dropdown-item" href="mres.html">Respiratory system</a>
+            <a class="dropdown-item" href="mdig.html">Digestive system</a>
+            <a class="dropdown-item" href="mrep.html">Reproductive system</a>
+            <a class="dropdown-item" href="mfever.html">Fever</a>
+            <a class="dropdown-item" href="mheal.html">Healing wounds</a>
+            <a class="dropdown-item" href="mboost.html">Boosting energy</a>
+            <a class="dropdown-item" href="mcancer.html">Fighting cancer</a>
+            <a class="dropdown-item" href="mskin.html">Skin and Hair</a>
+            
+          </div>
+      </li>
+                </ul>
+            </div>
+
+        </nav>
+<!--body-->
+<div class="container-fluid row_header">
+    <div class="row justify-content-center">
+        <div class="col-12">
+            <div class="header"><p class="header_text"><img src="RESOURCES/Multimedia/yoga%20(6).jpg" class="header_img img-fluid"> Yoga - Spiritual Integration</p></div>
+        </div>
+        <div class="col-5 col-sm-4 col-md-3 mb-4">
+            <img class="img-fluid head_img" src="RESOURCES/Multimedia/yoga%20(3).jpg">
+        </div>
+        <div class="col-11 col-sm-11 jumbotron col-lg-8 align-items-center">
+            <h5>
+                Yoga is originated from Sanskrit word ‘Yuj’ meaning union or integration. Yoga means integration of physical body to its astray body and finally with spiritual body i.e. Parambrahma the super natural power. There is continuous flow of energy in the living body. The continuous flow of energy is life and its stoppage is death. This energy flow from mooladhar chakra situated at the base near anus to Shashrar chakra situated at brain at the apex. During traveling it goes through different chakras, Swadhisthan chakra, Manipur chakra, Anahat chakra, Vishudha chakra and Agyan chakra.
+            </h5>
+        </div>
+        <div class="col-11 col-md-11 col-lg-11 jumbotron align-self-center"><p>
+            Chakras are the different energy circle at different level and possess different property and structure. These energy circles are not an anatomical structure but it is a Subtle energy circle.</p></div>
+        <div class="col-10 mr-3 jumbotron col-md-8 col-lg-5 align-self-center">
+            <img class="img-fluid " src="RESOURCES/Multimedia/subtlesys.jpg" style="border-radius: 1em ;width: 29.7em">
+        </div>
+        
+        <div class="col-12 col-sm-11 col-md-8 col-lg-5 ">
+            <div class="accordion " id="accordionExample">
+  <div class="card flo" >
+    <div class="card-header p-0" id="headingOne">
+      <h2 class="m-0">
+        <button class="noH p-0 btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-3"><img src="RESOURCES/Multimedia/shasrar.png" class="img-fluid " width="120" alt="..."></div>
+                <div class="col"><p class="h5 card-title "><strong>Shashrar (Crown) chakra</strong>
+            <br>COSMIC ENERGY</p></div>
+            </div>
+          
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      
+        <div class="card-body p-0">
+        
+        <p class="card-text"><br>Situated in the brain. It has thousands of petals so its known as <b>Shashrar Chakra</b>.<br><b>Color</b> - Violet , <b>Vibrant sound</b> - Silent</p>
+      </div>
+    </div>
+  </div>
+  <div class="card flo">
+    <div class="card-header p-0" id="headingTwo">
+      <h2 class="m-0">
+        <button class="noH p-0 btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-3"><img src="RESOURCES/Multimedia/ajna.jpg" class="img-fluid " width="150" alt="..."></div>
+                <div class="col "><p class="h5 card-title "><strong>Agyan (Brow) chakra</strong>
+            <br>INTUITION</p></div>
+            </div>
+          
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+        <div class="card-body p-0">
+        
+        <p class="card-text"><br>Situated at the base of the Brain  between the eyebrows. It has 2 petals .<br><b>Color</b> - Indigo , <b>Vibrant sound</b> - OM</p>
+      </div>
+    </div>
+  </div>
+  <div class="card flo">
+    <div class="card-header p-0" id="headingThree">
+      <h2 class="m-0">
+        <button class="noH p-0 btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-3"><img src="RESOURCES/Multimedia/vishud.jpg" class="img-fluid " width="100" alt="..."></div>
+                <div class="col "><p class="h5 card-title "><strong>Vishudha (Throat) chakra</strong>
+            <br>TRUTH</p></div>
+            </div>
+          
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      
+        <div class="card-body p-0">
+        
+        <p class="card-text"><br>Situated in the throat at sound box level near Adams apple. It has 16 petals.<br><b>Color</b> - Blue , <b>Vibrant sound</b> - HAM</p>
+      </div>
+    </div>
+  </div>
+  <div class="card flo">
+    <div class="card-header p-0" id="headingFour">
+      <h2 class="m-0">
+        <button class="noH p-0 btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-3"><img src="RESOURCES/Multimedia/anahat.png" class="img-fluid " width="100" alt="..."></div>
+                <div class="col "><p class="h5 card-title "><strong>Anahat (Heart) chakra</strong>
+            <br>LOVE</p></div>
+            </div>
+          
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+      
+        <div class="card-body p-0">
+        
+        <p class="card-text"><br>Situated in the chest at heart level. It has 12 petals.<br><b>Color</b> - Green , <b>Vibrant sound</b> - YAM</p>
+      </div>
+    </div>
+  </div>
+  <div class="card flo">
+    <div class="card-header p-0" id="headingFive">
+      <h2 class="m-0">
+        <button class="noH p-0 btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-3"><img src="RESOURCES/Multimedia/mani%20chakra.png" class="img-fluid " width="100" alt="..."></div>
+                <div class="col "><p class="h5 card-title "><strong>Manipur (Naval) chakra</strong>
+            <br>WILL POWER</p></div>
+            </div>
+          
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+      
+        <div class="card-body p-0">
+        
+        <p class="card-text"><br>Situated in the abdomen at naval level. It is also called as <b>solar plexus.</b><br><b>Color</b> - Yellow , <b>Vibrant sound</b> - RAM</p>
+      </div>
+    </div>
+  </div>
+  <div class="card flo">
+    <div class="card-header p-0" id="headingSix">
+      <h2 class="m-0">
+        <button class="noH p-0 btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+            <div class="row justify-content-center align-items-center">
+                <div class="m col-3"><img src="RESOURCES/Multimedia/swadisth.png" class="img-fluid " width="80" alt="..."></div>
+                <div class="col "><p class="h5 card-title "><strong>Swadhisthan (Sacral) chakra</strong>
+            <br>PLEASURE</p></div>
+            </div>
+          
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+      
+        <div class="card-body p-0">
+        
+        <p class="card-text"><br>Situated at the pubic level below pubic hair line. It has six petals.<br><b>Color</b> - Orange , <b>Vibrant sound</b> - VAM</p>
+      </div>
+    </div>
+  </div>
+  <div class="card flo">
+    <div class="card-header p-0" id="headingSeven">
+      <h2 class="m-0">
+        <button class="noH p-0 btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-3"><img src="RESOURCES/Multimedia/mool.png" class="img-fluid " width="100" alt="..."></div>
+                <div class="col "><p class="h5 card-title "><strong>Mooladhar (Root) chakra</strong>
+            <br>SURVIVAL</p></div>
+            </div>
+          
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+      
+        <div class="card-body p-0">
+        
+        <p class="card-text"><br>Situated at the base level near anus. Kundalini the Twisted energy lies in this energy circle.<br><b>Color</b> - RED , <b>Vibrant sound</b> - LAM</p>
+      </div>
+    </div>
+  </div>
+</div></div>
+
+        
+        
+<div class=" mt-3 col-11 col-md-11 jumbotron">
+<p>
+This flow of energy is similar to that in magnet from North pole to South pole. When there is disturbance in flow of energy it disturb the physiological activity in the body which lead to develop pathological process and ultimately development of disease. This way we can say rectification of flow of energy can cure the disease. It can be achieved by regular practice of Yoga. Different posses of Yoga is beneficial in different diseases.<br><br>
+
+But ultimate goal of Yoga is to achieve the stage of Nirwan, the spiritual release means merging of self into Pramatma, the super spiritual power of the Universe.
+
+            </p></div>
+    </div>
+    <hr>
+    <div class="row justify-content-center">
+        <div class="col-12">
+            <div class="Body">
+            <p class="body_text"><img src="RESOURCES/Multimedia/yoga%20(5).jpg" class="body_img img-fluid"> Ashtanga yoga - Eight folds of yoga</p></div></div>
+        <div class="col-10 jumbotron "><p>To achieve this Nirvana stage eight fold of Yoga is formed. This eight fold of Yoga is called as Ashtanga Yoga. 
+<br><br>
+<b>The eight fold of Yoga are- </b><br>
+1.	Yam - External Discpline<br>
+2.	Niyam - Internal discpline<br>
+3.	Asana - Posture<br>
+4.	Pranayam - Breath control<br>
+5.	Partihar - Withdrawl of senses<br>
+6.	Dharna - Concentration<br>
+7.	Dhyan - Meditative absorption<br>
+8.	Samadhi - Spiritual Enlightment<br><br>
+           The first two Yama and Niyama are the disciplinary habits to be practiced to brings purity in mind. The Asana and Pranayama is to maintain your health. The last four Partihara, Dharna, Dhyana and Samadhi is the main practice to achieve the enlightment stage of Yoga, the integration of self with spiritual super power.
+<br><br>
+Yoga is a life style that keep you healthy and fit by making you energetic and stress free. Helpful in achieving success and reach your Goal. So practice Yoga to get healthy successful life. It also teaches about social behaviour means how to behave in society among one another.  It is also helpful in making healthy society. 
+</p></div>
+        <div class="col-12 col-sm-11  cont">
+  <div class="card pb-3">
+     <p class="h1 card-head" >Yama - External discpline</p>
+  <div class="card-body" style="position: sticky;overflow-y: scroll;height: 500px">
+    <p class="card-text" style="font-family: 'Gotu';font-weight: bold"><b>Yama -</b> It is a first step to practice Yoga. It teaches about the disciplinary conduct with society. These habits are useful to make your mind spiritual and develop healthy relationship with society. It keeps your mind away from unhealthy thoughts. In this section of Yoga there are five conducts.</p><img src="RESOURCES/Multimedia/yama.jpg" class="img-fluid d-block m-auto" style="height: 200px"> <p style="text-align: left">These are-<br>
+<b>1.	Ahimsa (Non-violence)- </b>The word Ahimsa is made from two words ‘A’ and ‘Hinsa’, the meaning of ‘a’ is not and the meaning of ‘Hinsa’ is to harm. So the word Ahimsa means not to harm anybody. To develop the habit not to harm anybody in the society. It will bring peace in the society and a step forward to spiritual life.<br>
+<b>2.	Satya (Truthfulness)-</b> Satya means truth or rightness in your life. Do not hide your fault but accept it as your mistake and try to correct it or improve it. Have faith in truth. Truth is a power and give you success in your life. There is no shortcuts to achieve success but the right planning ,right thinking and the right way to do can make easy to achieve your success. It brings purity in your mind and lead second step towards spiritual life. <br>
+<b>3.	Astey (Non-stealing)-</b> The word ‘Stey’ means stealing and the pre fix ‘A’ meant not. So Astey means non stealing. Stealing is a conduct when you take some ones thing without taking his permission or unknowingly. By stealing some ones thing you are harming him financially and giving pain psychologically. Peoples steal due to his greedy nature. By quitting greedy nature you can overcome this habit and develop self sufficient and give feeling of completeness and pleasure. Astey is the third step moving towards spiritual life.<br>
+<b>4.	Brahmacharya (Moderating the senses) – </b>The literal meaning of Brahmacharya is behaviour to get God consciousness. It is the practice to discipline your senses. Do not get indulge in sensual pleasure but make yourself free from them. It make your mind more spiritual, give inner energy and determination to achieve your goal. It upgrade a step forward to spiritual life.<br>
+<b>5.	Aprigrah (Non-Possessiveness)-</b> Aprigrah means do not store or acquire the things that you have no use or in excess number or mass quantity. It will develop possessiveness in yourself. It will be difficult for you to detached from these materialistic things. If you use these things for the betterment of society rather then to store for yourself. It will give you inner pleasure and satisfaction. It also give you name and fame in your society. It is the fifth disciplinary conduct for you to the society.<br>
+</p>
+  </div>
+</div>    
+</div>
+        <div class="col-12 col-sm-11  cont">
+  <div class="card pb-3">
+     <p class="h1 card-head" >Niyam - Internal discpline</p>
+  <div class="card-body" style="position: sticky;overflow-y: scroll;height: 500px"><hr><img src="RESOURCES/Multimedia/yoga%20(5).jpg" class="img-fluid d-block m-auto" style="height: 400px"><hr> <p style="text-align: left">
+  </div>
+</div>    
+</div>
+        <div class="col-12 col-sm-11  cont">
+  <div class="card pb-3">
+     <p class="h1 card-head" >Ashana - Posture</p>
+  <div class="card-body" style="position: sticky;overflow-y: scroll;height: 500px"><hr>
+    <img src="RESOURCES/Multimedia/yoga%20(4).jpg" class="img-fluid d-block m-auto" style="height: 400px"><hr>
+      
+      
+  </div><div><button class="btn m-auto d-block"><a class="btn btn-primary btn-lg" href="yogap.html">Know more</a></button></div>
+</div>    
+</div>
+        <div class="col-12 col-sm-11  cont">
+  <div class="card pb-3">
+     <p class="h1 card-head" >Pranayam - Breath control</p>
+  <div class="card-body" style="position: sticky;overflow-y: scroll;height: 500px">
+   <hr>
+      <img src="RESOURCES/Multimedia/yoga%20(4).jpg" class="img-fluid d-block m-auto"  style="height: 400px">
+   <hr>
+  </div>
+</div>    
+</div>
+        <div class="col-12 col-sm-11  cont">
+  <div class="card pb-3">
+     <p class="h1 card-head p-2" >Pratyahara - Withdrawl of senses</p>
+  <div class="card-body" style="position: sticky;overflow-y: scroll;height: 500px">
+    <hr>
+      <img src="RESOURCES/Multimedia/yoga%20(5).jpg" class="img-fluid d-block m-auto" style="height: 400px">
+    <hr>
+  </div>
+</div>    
+</div>
+        <div class="col-12 col-sm-11  cont">
+  <div class="card pb-3">
+     <p class="h1 card-head p-2" >Dharana - Concentration</p>
+  <div class="card-body" style="position: sticky;overflow-y: scroll;height: 500px">
+    <hr>
+      <img src="RESOURCES/Multimedia/yoga%20(4).jpg" class="img-fluid d-block m-auto" style="height: 400px">
+    <hr>
+  </div>
+</div>    
+</div>
+        <div class="col-12 col-sm-11  cont">
+  <div class="card pb-3">
+     <p class="h1 card-head p-2" >Dhyan - Meditative absorption</p>
+  <div class="card-body" style="position: sticky;overflow-y: scroll;height: 500px">
+    <hr>
+      <img src="RESOURCES/Multimedia/yoga%20(5).jpg" class="img-fluid d-block m-auto"  style="height: 400px">
+    <hr>
+  </div>
+</div>    
+</div>
+        <div class="col-12 col-sm-11  cont">
+  <div class="card pb-3">
+     <p class="h1 card-head p-2" >Samadhi - Spiritual Enlightment</p>
+  <div class="card-body" style="position: sticky;overflow-y: scroll;height: 500px">
+    <hr>
+      <img src="RESOURCES/Multimedia/yoga%20(4).jpg" class="img-fluid d-block m-auto" style="height: 400px">
+    <hr>
+  </div>
+</div>    
+</div>
+    </div>
+</div>
+    
+
+
+<!--    modal-->
+    <div class="modal fade" id="signIn" tabindex="-1" role="dialog" aria-labelledby="coolStuffLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title modalHead" id="contentLabel">Welcome to Nectarveda</h5>
+
+                </div>
+                <div class="modal-body signin-body">
+                    <div class="container signin-container">
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="col-10">
+                                <div class="card signin-card">
+
+                                    <div class="card-body">
+                                        <img src="RESOURCES/Multimedia/logo.jpg" class="img-fluid signInImg signin-img">
+                                        <form class="signin-form">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" id="emailInput" placeholder="Email">
+                                            </div>
+
+                                            <div class="form-group">
+                                                <input type="password" class="form-control" id="passwordInput" placeholder="Password">
+                                            </div>
+
+
+                                            <div class="form-check">
+
+                                                <label class="form-check-label">
+                                  <input class="form-check-input" type="checkbox" > Remember me
+                                </label><a href="#">Forgot Password?</a>
+                                            </div>
+
+
+                                        </form>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col"></div>
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-primary modalFoot" href="profile.html">Sign In</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="signUp" tabindex="-1" role="dialog" aria-labelledby="coolStuffLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title modalHead" id="contentLabel">Welcome to Nectarveda</h5>
+
+                </div>
+                <div class="modal-body signin-body">
+                    <div class="container signin-container">
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="col-12">
+                                <div class="card signin-card">
+
+                                    <div class="card-body">
+                                        <img src="RESOURCES/Multimedia/logo.jpg" class="img-fluid signInImg signin-img">
+                                        <form class="signin-form">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" id="emailInput" placeholder="First Name">
+                                                <div class="form-group">
+                                                    <input type="email" class="form-control" id="emailInput" placeholder="Last Name">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="email" class="form-control" id="emailInput" placeholder="Age">
+                                                </div>
+
+
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" id="emailInput" placeholder="Email">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" id="emailInput" placeholder="Mobile Number">
+                                            </div>
+
+                                            <div class="form-group">
+                                                <input type="password" class="form-control" id="passwordInput" placeholder="Password">
+                                            </div>
+                                            <div class="form-group"> 
+                                                <input type="password" class="form-control" id="passwordInput" placeholder="Confirm Password">
+                                            </div>
+
+
+                                            <div class="form-check">
+
+                                                <label class="form-check-label">
+                                  <input class="form-check-input" type="checkbox" > By creating an account you agree to our Terms and Conditions.
+                                </label>
+                                                <a href="#"></a>
+                                            </div>
+
+
+                                        </form>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col"></div>
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary modalFoot" data-dismiss="modal">Sign Up</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="bootstrap.min.js"></script>
+</body>
+
+</html>

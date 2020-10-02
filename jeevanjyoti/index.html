@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+<!--        meta-tags-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" >
+<!--        title and icon-->
+        <title>Jeevan Jyoti</title>
+        <link rel="icon" href="Resources/LOGO_Jeevan_jyoti.PNG">
+<!--        bootstrap css-->
+        <link rel="stylesheet" href="Resources/Bstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="Resources/Bstrap/bootstrap-grid.min.css">
+<!--        fontawesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--        main stylesheet-->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container-fluid m-0">
+            <div class="row topRow">
+                <div class="col-12 col-lg-2 m-1"><a href="#"><img src="Resources/jeevanjyoti2logo.PNG" class="img-fluid logo"></a><hr class="mt-1 m-0 d-lg-none d-sm"></div>
+                <div class="col-12 col-lg centerTop m-auto">
+                <p class="LogoTitle m-0">JEEVAN JYOTI AAROGYA KENDRA
+                    </p>
+                    <p class="LogoTitle2 m-0">Dr Ashutosh Kumar Mishra</p>
+                    <p class="LogoTitle3 m-0"> B. A. M. S &nbsp;&nbsp; C. G. O</p>
+                    <p class="sloka m-0">॥ सर्वे भवंतु सुखिन: सर्वे संतु निरामया ॥</p><hr class="m-0 d-lg-none d-sm">
+                </div>
+                <div class="col-12 col-lg-2 contact"><a href="#" class="contact">Pratappur near Ghorichak Pirpainti road Meharma Godda Jharkhand 814160</a><hr class="m-0">Timing: 9:00AM to 1:00PM<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3:00PM to 6:00PM<hr class="m-0">
+                <a href="tel:+918467048837" class="contact">MoNo: &nbsp;&nbsp;+91 8467048837</a>
+                
+                </div>
+                
+            </div>
+            
+        </div>
+        
+            
+<!--                navbar             -->
+        <nav class="navbar navbar-expand-lg na navbar-light ">
+            <a class="navbar-brand " href="https://nectarayurveda.github.io/"><img class="img-fluid m-0 p-0 navLogo" src="Resources/jeevanjyotibrand.png" > </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation" >
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse na" id="navbarContent">
+            <ul class="navbar-nav">
+                <li class="nav-item active h"><a class="nav-link" href="#">Patient Information</a></li>
+                <li class="nav-item h"><a class="nav-link" href="MedicinePrescription.html">Medicine Prescription</a></li>
+                <li class="nav-item h"><a class="nav-link" href="#">Diet and Lifestyle</a></li>
+                <li class="nav-item h"><a class="nav-link" href="#">Follow up</a></li>
+            </ul>
+            </div>
+            
+        </nav>
+<!--        mainpage-->
+        <div class="container-fluid">
+            <hr>
+            <form>
+            <input type="text" name="pId" placeholder="Patient Id" required id="pId">
+            <input type="text" name="pMoNo" id="pMoNo" placeholder="Mobile No " required>
+            <input type="email" name="pEmail" id="pEmail" placeholder="Email">
+            <input name="address" type="text" placeholder="Enter your address here">
+                
+<select name="state" id="state">
+    <option selected value="">State</option>
+<option value="Andhra Pradesh">Andhra Pradesh</option>
+<option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+<option value="Arunachal Pradesh">Arunachal Pradesh</option>
+<option value="Assam">Assam</option>
+<option value="Bihar">Bihar</option>
+<option value="Chandigarh">Chandigarh</option>
+<option value="Chhattisgarh">Chhattisgarh</option>
+<option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+<option value="Daman and Diu">Daman and Diu</option>
+<option value="Delhi">Delhi</option>
+<option value="Lakshadweep">Lakshadweep</option>
+<option value="Puducherry">Puducherry</option>
+<option value="Goa">Goa</option>
+<option value="Gujarat">Gujarat</option>
+<option value="Haryana">Haryana</option>
+<option value="Himachal Pradesh">Himachal Pradesh</option>
+<option value="Jammu and Kashmir">Jammu and Kashmir</option>
+<option value="Jharkhand">Jharkhand</option>
+<option value="Karnataka">Karnataka</option>
+<option value="Kerala">Kerala</option>
+<option value="Madhya Pradesh">Madhya Pradesh</option>
+<option value="Maharashtra">Maharashtra</option>
+<option value="Manipur">Manipur</option>
+<option value="Meghalaya">Meghalaya</option>
+<option value="Mizoram">Mizoram</option>
+<option value="Nagaland">Nagaland</option>
+<option value="Odisha">Odisha</option>
+<option value="Punjab">Punjab</option>
+<option value="Rajasthan">Rajasthan</option>
+<option value="Sikkim">Sikkim</option>
+<option value="Tamil Nadu">Tamil Nadu</option>
+<option value="Telangana">Telangana</option>
+<option value="Tripura">Tripura</option>
+<option value="Uttar Pradesh">Uttar Pradesh</option>
+<option value="Uttarakhand">Uttarakhand</option>
+<option value="West Bengal">West Bengal</option>
+</select>
+            <input type="number" name="pincode" maxlength="6" min="100000" placeholder="PIN" max="999999"> 
+                <hr>
+            <input type="Text" name="pFname" id="pFname" placeholder="First Name" required>
+            <input type="Text" name="pMname" id="pMname" placeholder="Middle Name">
+            <input type="Text" name="pLname" id="pLname" placeholder="Last Name" required>
+                <input type="Text" name="pGndr" id="pGndr"  placeholder="Gender" list="gender" required>
+                <datalist id="gender">
+                <option value="Male"/>
+                <option value="Female"/>
+                </datalist>
+            <input type="number" name="pAge" id="pAge" placeholder="Age" required>
+            <input  type="date" name="DOB" class="mt-1">
+            <input type="number" name="pHt" id="pHt" placeholder="Height(cm)">
+            <input type="number" name="pWt" id="pWt" placeholder="Weight(Kg)">
+                <input type="text" list="Diet" name="Diet" placeholder="Diet">
+                <datalist id="Diet">
+                <option value="Veg" />
+                <option value="Non-veg"/>
+                </datalist>
+                <input type="text" list="Food" name="Food" placeholder="Food">
+                <datalist id="Food">
+                <option value="Normal"/>
+                <option value="Junk-food"/>
+                <option value="Fast-food"/>
+                </datalist>
+                <input type="text" list="Lifestyle" name="Lifestyle" placeholder="Lifestyle">
+                <datalist id="Lifestyle">
+                <option value="Sedentary"/>
+                <option value="Laborious"/>
+                <option value="Normal with exercise"/>
+                <option value="Normal without exercise"/>
+                </datalist>
+            <input type="text" name="pOcpn" placeholder="Occupation"><hr>
+                <input type="text" list="addiction" name="addiction" multiple placeholder="ADDICTION" id="addict">
+                <datalist id="addiction">
+                <option value="Tea"></option>
+                <option value="Coffee"></option>
+                <option value="Smoking"></option>
+                <option value="Alcohal"></option>
+                <option value="Tobacco"></option>
+                <option value="Drugs"></option>
+                </datalist>
+                <input id="addDur" type="number"  name="addDur"  placeholder="Value">
+                <input id="addDuration" type="text" name="addDuration" class="ml-0" list="addduration" placeholder="Duration">
+                <datalist id="addduration">
+                <option value="Days"/>
+                <option value="Months"/>
+                    <option value="Years"/></datalist>
+                
+                <div name="noAddiction" onclick="addic()" class="btn btn-primary" style="border-radius: 50% ; float: right"><i class="fa fa-plus" aria-hidden="true"></i> Add</div>
+                <hr>
+                <div class="row">
+                <div id="addictions" class="col"></div>
+                <div id="adddur" class="col"></div>
+                <div id="addDurn" class="col"></div>
+                </div>
+                
+                <hr>
+            <input type="text" name="pOcpn" placeholder="Blood Preassure" list="BP">
+                <datalist id="BP">
+                <option value="Normal"/>
+                <option value="High without medicine"/>
+                <option value="High with medicine"/>
+                <option value="Low without medicine"/>
+                <option value="Low with medicine"/>
+                </datalist>
+            <input type="text" list="Diab" name="Diab" placeholder="Diabetes">
+                <datalist id="Diab">
+                <option value="Normal"/>
+                <option value="High without medicine"/>
+                <option value="High with medicine" />
+                <option value="Control with medicine" />
+            </datalist>
+                <input type="text" list="Thyroid" name="Diab" placeholder="Thyroid">
+                <datalist id="Thyroid">
+                <option value="Normal" />
+                <option value="Hyper with medicine"/>
+                <option value="Hyper without medicine"/>
+                <option value="Hypo with medicine" />
+                <option value="Hypo without medicine" />
+            </datalist>
+                <input type="text" list="Eye" name="Eye" placeholder="Eye">
+                <datalist id="Eye">
+                <option value="Normal" />
+                <option value="Icterus"/>
+                <option value="Pale"/>
+                <option value="Reddish" />
+            </datalist>
+                <input type="text" list="Tongue" name="Tongue" placeholder="Tongue">
+                <datalist id="Tongue">
+                <option value="Normal" />
+                <option value="Coated"/>
+                <option value="Pale"/>
+                <option value="Redish" />
+            </datalist>
+                
+                <input type="text" list="Appetite" name="Appetite" placeholder="Appetite">
+                <datalist id="Appetite">
+                <option value="Normal" />
+                <option value="Low"/>
+            </datalist>
+                <input type="text" list="Gas" name="Gas" placeholder="Gas">
+                <datalist id="Gas">
+                <option value="Normal" />
+                <option value="Distended"/>
+                <option value="Belching"/>
+                <option value="Flatus"/>
+            </datalist>
+                <input type="text" list="Acidity" name="Acidity" placeholder="Acidity">
+                <datalist id="Acidity">
+                <option value="Normal" />
+                <option value="Chest burning"/>
+                <option value="sore belching"/>
+                <option value="Pain in epigastric"/>
+            </datalist>
+                <input type="text" list="Motion" name="Motion" placeholder="Motion">
+                <datalist id="Motion">
+                <option value="Normal" />
+                <option value="Constipation"/>
+                <option value="Hard stool"/>
+                <option value="Stool with mucous"/>
+                <option value="Stool with blood"/>
+                <option value="Dark brown stool"/>
+                <option value="Watery stool"/>
+            </datalist>
+                <input type="text" list="Urination" name="Urination" placeholder="Urination">
+                <datalist id="Urination">
+                <option value="Normal" />
+                <option value="Painful"/>
+                <option value="Burning"/>
+                <option value="Yellowish"/>
+                <option value="Reddish"/>
+                <option value="Urination with blood"/>
+                <option value="Watery stool"/>  </datalist>
+                 <input type="text" list="Sleep" name="Sleep" placeholder="Sleep">
+                <datalist id="Sleep">
+                <option value="Normal" />
+                <option value="Disturbed"/>
+                    <option value="Insomnia"/>
+                </datalist>
+                <input type="text" list="Mind" name="Mind" placeholder="Mind">
+                <datalist id="Mind">
+                <option value="Relaxed" />
+                <option value="Stressed"/>
+                <option value="Anxiety"/>
+                <option value="Depression"/>
+                </datalist>
+                
+                
+                
+              
+                
+                <hr>
+                
+            
+                            <input id="system" onchange="disp()" type="text" list="System" placeholder="System" name="System">
+                                <datalist id="System">
+                                     <option value="Digestive">Digestive 
+          </option>
+        <option value="Respiratory">Respiratory</option>
+        <option value="Cardiovascular">Cardiovascular</option>
+        <option value="Nervous">Nervous</option>
+        <option value="Endocrine">Endocrine</option>
+        <option value="Musculoskeletal">Musculoskeletal</option>
+        <option value="Gynacological">Gynacological</option>
+        <option value="Skin">Skin</option>
+        <option value="Sexual">Sexual</option>
+                                </datalist>
+                                <input id="symptom" type="text" placeholder="Symptom" name="Symptom" list="">
+<!--                digestive-->
+                                <datalist id="Digestive">
+                                     <option  value="Nausea">Nausea</option>
+        <option value="Vometing">Vometing</option>
+        <option value="Pain in Abdomen">Pain in Abdomen</option>
+        <option value="Sour Belching">Sour Belching</option>
+        <option value="Chest Burning">Chest Burning</option>
+        <option value="Colicky pain">Colicky pain</option>
+        <option value="Dull pain">Dull pain</option>
+        <option value="Hard Stool">Hard Stool</option>
+        <option value="Flatus">Flatus</option>
+        <option value="Distended abdomen">Distended abdomen</option>
+        <option value="Stool with mucus">Stool with mucus</option>
+        <option value="Stool with Blood stain">Stool with Blood stain</option>
+        <option value="Stool with Blood and Mucus">Stool with Blood and Mucus</option>
+        <option value="Dark Brown Stool">Dark Brown Stool</option>
+        <option value="Low Apetite">Low Apetite</option>
+        <option value="Anorexia">Anorexia</option>
+        <option value="Pain with vometing">Pain with vometing</option>
+        <option value="Watery stool">Watery stool</option>
+        <option value="Pain in apigastric region">Pain in apigastric region</option>
+        <option value="Pain in right Hypocondric">Pain in right Hypocondric</option>
+        <option value="Pain in left hypocondric">Pain in left hypocondric</option>
+        <option value="Pain in navel region">Pain in navel region</option>
+        <option value="Pain in right lateral">Pain in right lateral</option>
+        <option value="Pain in left lateral">Pain in left lateral</option>
+        <option value="Pain in Pubic region">Pain in Pubic region</option>
+        <option value="Pain in right illiac region">Pain in right illiac region</option>
+        <option value="Pain in left illiac">Pain in left illiac</option>
+                                </datalist>
+<!--                respiratory                -->
+                <datalist id="Respiratory" >
+          
+        <option  value="Sneezing">Sneezing</option>
+        <option  value="Dry Cough">Dry Cough</option>
+        <option  value="Cough with sputum">Cough with sputum</option>
+        <option  value="Pain in chest with cough">Pain in chest with cough</option>
+        <option  value="Breathing Problem">Breathing Problem</option>
+        <option  value="Running Nose">Running Nose</option>
+        <option  value="Itching and watery eye">Itching and watery eye</option>
+        <option  value="Epixtaxis">Epixtaxis</option>
+        <option  value="Sputum with blood">Sputum with blood</option>
+        <option  value="Headache">Headache</option>
+        <option  value="Clubbed nail">Clubbed nail</option>
+        
+      </datalist>                
+<!--            cardiovascuar-->
+                <datalist id="Cardiovascular">
+          
+        <option value="Chest pain deviating towards shoulder">Chest pain deviating towards shoulder</option>
+        <option value="Dypsnea on exertion">Dypsnea on exertion </option>
+        <option value="Palpitaion">Palpitaion</option>
+        <option value="Fatigue">Fatigue</option>
+        <option value="Pedel edema">Pedel edema</option>
+        <option value="Cynosis of nail">Cynosis of nail</option>
+        <option value="Giddiness">Giddiness</option>
+        <option value="Drausi ness">Drausi ness</option>
+        <option value="Syncope">Syncope</option>
+        
+      </datalist>
+<!--            nervous-->
+                <datalist id="Nervous">
+          
+        <option value="Pain in back deviating towards leg">Pain in back deviating towards leg</option>
+        <option value="Giddiness">Giddiness</option>
+        <option value="Tremor in hand">Tremor in hand</option>
+        <option value="Convulsions">Convulsions</option>
+        <option value="Poor memory">Poor memory</option>
+        <option value="Memory loss">Memory loss</option>
+        <option value="Fits">Fits</option>
+        <option value="Pain in neck deviating towards hand">Pain in neck deviating towards hand</option>
+        
+      </datalist>
+<!--            endocrine-->
+                <datalist id="Endocrine">
+          
+        <option  value="Odema on face">Odema on face</option>
+        <option value="Odema on leg">Odema on leg</option>
+        <option value="Lethargy">Lethargy</option>
+        <option value="Fatigue">Fatigue</option>
+        <option value="Weight gain">Weight gain</option>
+        <option value="Gas formation">Gas formation</option>
+        <option value="Motion not clear">Motion not clear</option>
+        <option value="Weight loss">Weight loss</option>
+        <option value="Palpitation">Palpitation</option>
+        <option value="Excess sweating">Excess sweating</option>
+        <option value="Excess glucose in blood">Excess glucose in blood</option>
+        <option value="Burning in palm and sole">Burning in palm and sole</option>
+        <option value="Heart rate fast">Heart rate fast</option>
+        <option value="Excess hunger">Excess hunger</option>
+        <option value="Excess thirst">Excess thirst</option>
+      </datalist>
+<!--            musculoskeletal-->
+                <datalist id="Musculoskeletal" >
+          
+        <option  value="Pain in knee joint">Pain in knee joint </option>
+        <option value="Pain in knee joint with swelling">Pain in knee joint with swelling</option>
+        <option value="Restricted movement of joint">Restricted movement of joint</option>
+        <option value="Swelling pain and stiffness of joint">Swelling pain and stiffness of joint</option>
+        <option value="Morning stiffness">Morning stiffness</option>
+        <option value="Back pain deviating towards leg">Back pain deviating towards leg</option>
+        <option value="Pain and numbness in leg">Pain and numbness in leg</option>
+        <option value="Pain and swelling in small joint">Pain and swelling in small joint</option>
+        <option value="Pain in toe">Pain in toe</option>
+        <option value="Pain in ankle joint">Pain in ankle joint</option>
+        <option value="Pain in shoulder joint">Pain in shoulder joint</option>
+        <option value="Giddiness">Giddiness</option>
+        <option value="Pain in half headache">Pain in half headache</option>
+        <option value="Pain in neck deviating towards hand">Pain in neck deviating towards hand</option>
+        <option value="Pain and numbness in hand">Pain and numbness in hand</option>
+        <option value="Pain in elbow joint">Pain in elbow joint</option>
+        <option value="Pain in wrist joint">Pain in wrist joint</option>
+        <option value="Pain and deformity in smaller joint">Pain and deformity in smaller joint</option>
+        <option value="Pain and deformity in large joint">Pain and deformity in large joint</option>
+        <option value="Paralysis of rt side">Paralysis of rt side</option>
+        <option value="Paralysis of lt side">Paralysis of lt side</option>
+        <option value="Weakness of muscle">Weakness of muscle</option>
+        <option value="Unable of movement of joint">Unable of movement of joint</option>
+        <option value="Fascial palsy">Fascial palsy</option>
+      </datalist>
+<!--            gynacological-->
+            <datalist id="Gynacological" >
+          
+        <option  value="Irregular menses">Irregular menses</option>
+        <option value="Painful menses">Painful menses</option>
+        <option value="Heavy bleeding on menses">Heavy bleeding on menses</option>
+        <option value="Heavy menses on longer duration">Heavy menses on longer duration</option>
+        <option value="Secondary amenorrhea">Secondary amenorrhea</option>
+        <option value="Per vaginal white discharge">Per vaginal white discharge</option>
+        <option value="white discharge thick and with foul smell">white discharge thick and with foul smell</option>
+        <option value="Itching and burning in vagina">Itching and burning in vagina</option>
+        <option value="Uterus prolapse">Uterus prolapse</option>
+        <option value="no control on urination">no control on urination</option>
+        <option value="Pain in lower abdomen">Pain in lower abdomen</option>
+        <option value="Pain in back">Pain in back</option>
+        <option value="cyst in ovary">cyst in ovary</option>
+        <option value="Fibroma in uterus">Fibroma in uterus</option>
+      </datalist>
+<!--            skin-->
+            <datalist id="Skin">
+          
+        <option  value="Itching">Itching</option>
+        <option value="Rashes">Rashes</option>
+        <option value="White patches">White patches</option>
+        <option value="Dark patches">Dark patches</option>
+        <option value="Hypopigmentation">Hypopigmentation</option>
+        <option value="Hyperpigmentation">Hyperpigmentation</option>
+        <option value="Blisters">Blisters</option>
+        <option value="Boil">Boil</option>
+        <option value="Papules">Papules</option>
+        <option value="Macules">Macules</option>
+        <option value="Pustuls">Pustuls</option>
+        <option value="Pricles">Pricles</option>
+        <option value="Scaly skin">Scaly skin</option>
+        <option value="Dry Skin">Dry Skin</option>
+        <option value="Bumps">Bumps</option>
+        <option value="Thick Skin">Thick Skin</option>
+        <option value="Dermatitis">Dermatitis</option>
+        <option value="Hairfall">Hairfall</option>
+        <option value="Greying of hair">Greying of hair</option>
+        <option value="Dandruf">Dandruf</option>
+        <option value="Loss of hair in patches">Loss of hair in patches</option>
+        <option value="Heel crack">Heel crack</option>
+        <option value="Fungal infection">Fungal infection</option> 
+      </datalist>
+<!--            sexual-->
+            <datalist id="Sexual">
+          
+        <option value="PME">PME</option>
+        <option value="ED">ED</option>
+        <option value="Loss of libido">Loss of libido</option>
+        <option value="Dhatu roag">Dhatu roag</option>
+        <option value="Nightmare">Nightmare</option>
+        <option value="Infertility">Infertility</option>
+        
+      </datalist>
+                
+                <input id="noDuration" type="number"  name="noDuration" class="mr-0"  placeholder="Value">
+                <input id="Duration" type="text" name="Duration" class="ml-0" list="duration" placeholder="Duration">
+                <datalist id="duration">
+                <option value="Days"/>
+                <option value="Months"/>
+                <option value="Years"/>
+                </datalist>
+                    <div name="NoOfVal" onclick="dAdd()" class="btn btn-primary" style="border-radius: 50% ; float: right"><i class="fa fa-plus" aria-hidden="true"></i> Add</div>
+                <hr class="col-8">
+                <div class="row">
+                     
+                    <div class="col" id="dSys"></div>
+                    <div class="col" id="dSym"></div>
+                    <div class="col" id="dnDur"></div>
+                    <div class="col" id="dDur"></div>
+                </div>
+<!--                Investigation-->
+                <hr>
+                <textarea name="investigation" placeholder="Investigation Reports (Seperate by comma)"></textarea>
+                <input type="file" multiple name="reportFile" >
+<!--                past n family history-->
+                <hr>
+                <input type="text" name="pastHistory" placeholder="Past history">
+                <input type="text" name="familyHistory" placeholder="Family history">
+                <hr>
+<!--               provisional diagnosis-->
+                 <input id="systemD" onchange="dispD()" type="text" list="SystemD" placeholder="System" name="SystemD">
+                                <datalist id="SystemD">
+        <option value="Digestive "></option>
+        <option value="Respiratory "></option>
+        <option value="Cardiovascular "></option>
+        <option value="Nervous "></option>
+        <option value="Endocrine "></option>
+        <option value="Musculoskeletal "></option>
+        <option value="Gynacological "></option>
+        <option value="Skin "></option>
+        <option value="Urinary "/>
+        <option value="Psychological "/>
+        <option value="Opthalmological "/>
+        <option value="E.N.T. "/>
+        <option value="Sexual "></option>
+                                </datalist>
+                                <input id="symptomD" type="text" placeholder="Disease" name="SymptomD" list="">
+<!--                digestive-->
+                                <datalist id="Digestive ">
+                                     <option  value="Constipation">Vibandha</option>
+        <option value="Indigestion">Ajirna</option>
+        <option value="Gastritis">Amla pitta</option>
+        <option value="Pancreatitis">Agnashaya shoth</option>
+        <option value="Duodenal ulcer">Arinama shula</option>
+        <option value="Jaundice">Kamala</option>
+        <option value="Hepatomegaly">Yakritdalodara</option>
+        <option value="Colitis">Antra vrana shoth</option>
+        <option value="Ulcerative colitis">Antra vrana shoth</option>
+        <option value="Chirrosis of liver">Udar roga</option>
+        <option value="Fatty liver"></option>
+        <option value="Appendicitis">Antra puschh sotra</option>
+        <option value="Hyperacidity">Amla pitta</option>
+        <option value="Haemorroids">Arsha</option>
+        <option value="Fistula">Bhagandar</option>
+        <option value="Fissure">Parikartika</option>
+        <option value="IBS">Grahani roga</option>
+        <option value="Peptic ulcer">Anna drava shula</option>
+        <option value="Gerd">Urdhwa amla pitta</option>
+        
+                                </datalist>
+<!--                respiratory                -->
+                <datalist id="Respiratory " >
+          
+        <option  value="COPD">Shwash kasaroga</option>
+        <option  value="Bronchitis">Kasaroga</option>
+        <option  value="Tonsilitis">Gal sundika</option>
+        <option  value="Laryngitis">Swara tantra shoth</option>
+        <option  value="Rhinitis">Pratishyay</option>
+        <option  value="Sinusitis">Dusta pratishyaya</option>
+        <option  value="Cold & Coryza">Pratishyay</option>
+        <option  value="Brochial asthama">Swasa roga</option>
+        <option  value="Allergic asthama">Vatajaswasa roga</option>
+        <option  value="P.Tuberculosis">Kshaya roga</option>
+        <option  value="Pneumonia"></option>
+        
+      </datalist> 
+<!--                Urinary-->
+                <datalist id="Urinary ">
+                    <option value="UTI">Mutrakricha</option>
+                    <option value="Renal calculus"></option>
+                    <option value="BPH">Mutra asthila</option>
+                    <option value="Nephritis">Vrika shoth</option>
+                    <option value="CKD">Mutraghata</option>
+                    <option value="AKD">Vrika roga</option>
+                </datalist>
+<!--            cardiovascuar-->
+                <datalist id="Cardiovascular ">
+          
+        <option value="Hypertension">Uchha raktachap</option>
+        <option value="Hyperlipidemia"></option>
+        <option value="Varicose vein">Shira pratichay</option>
+        <option value="Mitral stenosis"></option>
+        <option value="CAD">Hriday roga</option>
+        <option value="Myocardial infarcation"></option>
+       
+      </datalist>
+<!--            nervous-->
+                <datalist id="Nervous ">
+          
+        <option value="Migraine">Suryavarta</option>
+        <option value="Sciatica">Gridharshi</option>
+        <option value="Lumbago">Katistambha</option>
+        <option value="Parkinson disease">Kampvata</option>
+        <option value="Epilepsy">Apasmara</option>
+        <option value="Facial palsy">Ardita</option>
+        <option value="Spondylosis">Merudanda shoth</option>
+                </datalist>
+<!--                Psychological-->
+                <datalist id="Psychological ">
+                <option value="Depression">Avasada</option>
+                <option value="Mood swing"></option>
+                <option value="Schizopherenia">Atatvabhinivesha</option>
+                <option value="Alzeimer">Smriti Bhramsa</option>
+                <option value="Autism"></option>
+                </datalist>
+<!--                opthamological-->
+                <datalist id="Opthalmological ">
+                <option value="Conjunctivitis"></option>
+                <option value="Cataract">Motiyabind</option>
+                <option value="Glauoma">Kalamotiya</option>
+                <option value="Blepheritis">Vartma shoth</option>
+                <option value="Stye"></option>
+                <option value="Retinopathy"></option>
+                <option value="Refractive error">Drishti dosha</option>
+                
+                </datalist>
+<!--                ENT-->
+                <datalist id="E.N.T ">
+                <option value="DNS">Nasa asthi shoth</option>
+                <option value="Tinnitus">Karnashveda</option>
+                <option value="Tonsilitis">Galsundika shoth</option>
+                <option value="Pharyngitis">Ahara nali shoth</option>
+                <option value="Laryngitis">Swara tantra shoth</option>
+                <option value="Nasal polyp">Nasa arsha</option>
+                <option value="Tympanitis">Karna shoth</option>
+                <option value="Otorrhoea">Karna srava</option>
+                </datalist>
+<!--            endocrine-->
+                <datalist id="Endocrine ">
+          
+        <option value="Hypothyroidism"></option>
+        <option value="Hyperthyroidism"></option>
+        <option value="Diabetes mellitus">Madhumeha</option>
+        <option value="Infertility">Bandhatva</option>
+       
+      </datalist>
+<!--            musculoskeletal-->
+                <datalist id="Musculoskeletal " >
+          
+        <option  value="Cervical spondylosis">Manya stambha</option>
+        <option value="Muscular dystrophy">Mamsa gata vata</option>
+        <option value="Osteo arthritis">Sandhigata vata</option>
+        <option value="Rheumatoid arthritis">Aamvata</option>
+        <option value="Osteroporosis">Asthi vivarta</option>
+        <option value="Scitica">Gridharshi</option>
+        <option value="Scitica">Gridharshi</option>
+      </datalist>
+<!--            gynacological-->
+            <datalist id="Gynacological " >
+          
+        <option  value="Dysmenorrhoea">Krich artava</option>
+        <option value="Oligomenorrhoea">Alpartava</option>
+        <option value="Leucorrhoea">Shweta pradar</option>
+        <option value="PCOD"></option>
+        <option value="PCOS"></option>
+        <option value="DUB"></option>
+        <option value="Menorrhagia">Ati artava</option>
+        <option value="Metrorrhagia">Atiartava</option>
+        <option value="Amenorrhoea">Anartava</option>
+        
+      </datalist>
+<!--            skin-->
+            <datalist id="Skin ">
+          
+        <option  value="Allergic skin disease">Twak roga</option>
+        <option value="Acne vulgaris">Tarun pidika</option>
+        <option value="Infective dermetitis">Krimi twacha shoth</option>
+        <option value="Eczematus dermatitis"></option>
+        <option value="Vitiligo">Shweta kustha</option>
+        <option value="Psoriasis">Kitif kustha</option>
+        <option value="Tinea">Dadru</option>
+        <option value="Herpes zoster">Visarpa</option>
+        <option value="Hyper pigmentation">Vayanga</option>
+        <option value="Xanthalasma"></option>
+        <option value="Folliculitis">Twak shoth</option>
+       
+      </datalist>
+<!--            sexual-->
+            <datalist id="Sexual ">
+          
+        <option value="Erectile dysfunction">Dhwajabhanga</option>
+        <option value="Premature ejaculation">Shighrapatan</option>
+        <option value="Loss of libido"></option>
+        <option value="Frigidity"></option>
+      </datalist>
+                
+                <input id="noDurationD" type="number"  name="noDurationD" class="mr-0" placeholder="Value">
+                <input id="DurationD" type="text" name="DurationD" class="ml-0" list="durationD" placeholder="Duration">
+                <datalist id="durationD">
+                <option value="Days"/>
+                <option value="Months"/>
+                <option value="Years"/>
+                </datalist>
+                    <div name="NoOfValD" onclick="dAddD()" class="btn btn-primary" style="border-radius: 50% ; float: right"><i class="fa fa-plus" aria-hidden="true"></i> Add</div>
+                <hr class="col-8">
+                <div class="row">
+                     
+                    <div class="col" id="dSysD"></div>
+                    <div class="col" id="dSymD"></div>
+                    <div class="col" id="dnDurD"></div>
+                    <div class="col" id="dDurD"></div>
+                </div>
+                <hr>
+<!--                BUTTONS-->
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col-12 col-sm-3 col-md-1" ><input style="width: 100%" type="reset" value="Reset"  class="btn btn-danger m-0"></div>
+                    <div  class="col-12 col-sm-3 col-md-1"><input style="width: 100%" type="button" value="Save" onclick="getVal()" class="btn btn-primary m-0"></div>
+                    <div class="col-12 col-sm-3 col-md-1"><input style="width: 100%" type="submit" value="Submit" onclick="getVal()" class="btn btn-success m-0"></div>
+                    
+                    <div class="col"></div>
+                    
+                </div>
+                <hr class="col-8 col-md-5 col-lg-3" >
+                
+            </form><hr>
+            
+
+           
+            
+        </div>
+                
+            
+            
+            <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="Resources/Bstrap/bootstrap.min.js"></script>
+        <script src="Resources/file.js"></script>
+    </body>
+</html>
