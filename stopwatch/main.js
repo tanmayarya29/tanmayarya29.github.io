@@ -51,7 +51,7 @@ const timerCycle=()=> {
     document.title = min + ":" + sec + " Stopwatch";
 
 
-    setTimeout(timerCycle,1);
+    setTimeout(timerCycle,10);
   }
 }
 
