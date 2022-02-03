@@ -1,0 +1,72 @@
+.todo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    height:100%;
+    padding: 10px;
+    margin: 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px #ccc;
+    margin: 5px;
+}
+.btndiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    height: 100%;
+}
+.btndel{
+    border: 2px solid red;
+    box-shadow:inset 0px 0px 5px red;
+}
+.btndone{
+    border: 2px solid green;
+    box-shadow:inset 0px 0px 5px green;
+
+}
+
+.btndone, .btndel{
+    float: right;
+    background-color: #fff;
+    color: #000;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    transition: all 0.25s ease-out;
+}
+.btndone:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    background-color: green;
+}
+.btndel:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    background-color: red;
+}
+
+.done{
+    width: 100%;
+    float: left;
+    margin: 1em;
+    text-align: left;
+    text-decoration: line-through;
+    font-size: 20px;
+}
+.undone{
+    width: 100%;
+    float: left;
+    margin: 1em;
+    text-align: left;
+    text-decoration: none;
+    font-size: 20px;
+}
+
