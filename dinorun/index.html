@@ -1,5 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" 
+onclick="jump()"
+onkeypress="
+if (event.keyCode == 32)
+    jump();
+">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,11 +13,6 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body
-    onclick="jump()"
-    onkeypress="
-    if (event.keyCode == 32)
-        jump();
-    "
   >
     <div id="game">
       <div id="dino"></div>
